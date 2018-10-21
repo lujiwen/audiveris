@@ -1,0 +1,130 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+buildscript {
+    ext.kotlin_version = '1.1.3' // Required for Kotlin integration
+    ext.spring_boot_version = '1.5.4.RELEASE'
+    ext.java_version = '1.8'
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // Required for Kotlin integration
+        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlin_version" // See https://kotlinlang.org/docs/reference/compiler-plugins.html#kotlin-spring-compiler-plugin
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:$spring_boot_version"
+    }
+}
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+ext.programName     = 'Audiveris-wrapper'
+ext.programId       = 'audiveris'
+ext.programVersion  = '5.1.0'
+ext.companyName     = "$programName Ltd."
+ext.companyId       = "${programName}Ltd"
+
+// this code is required in order to adapt values of os.name and os.arch to the
+// conventions used by Javacpp's dependencies
+ext.targetOSName   = System.getProperty('os.name').toLowerCase()\
+                     .startsWith('mac os x') ? 'macosx' :\
+                     System.getProperty('os.name').split(' ')[0].toLowerCase()
+ext.targetOSArch   = ["i386":"x86", "i486":"x86", "i586":"x86", "i686":"x86",
+                      "amd64":"x86_64", "x86-64":"x86_64", "x86_64":"x86_64"]\
+                     [System.getProperty('os.arch').toLowerCase()]
+ext.targetOS       = "${project.ext.targetOSName}-${project.ext.targetOSArch}"
+println "targetOS=${project.ext.targetOS}"
+
+
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main'
+        }
+        resources {
+            srcDir 'src/main'
+            srcDir 'dev/icons'
+        }
+    }
+    test {
+        java {
+            srcDir 'src/test'
+        }
+    }
+}
+
+
+apply plugin: 'kotlin' // Required for Kotlin integration
+apply plugin: "kotlin-spring" // See https://kotlinlang.org/docs/reference/compiler-plugins.html#kotlin-spring-compiler-plugin
+apply plugin: 'org.springframework.boot'
+apply plugin: 'application'
+
+jar {
+    baseName = 'audiveries-wrapper'
+    version = '0.1.0'
+}
+
+repositories {
+    jcenter()
+
+    maven {
+        name = 'JBoss repository' // required to obtain non-free JAI
+        url = 'https://repository.jboss.org/nexus/content/repositories/thirdparty-releases'
+    }
+    mavenLocal()
+    //flatDir(dirs: 'dev/externals') // for libraries not in any other repository
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version" // Required for Kotlin integration
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.16.20'
+    annotationProcessor 'org.projectlombok:lombok:1.16.20'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.16.20'
+}
+
+
+dependencies {
+    compile(
+            [group: 'args4j', name: 'args4j', version: '2.33'],
+            [group: 'org.jdesktop.bsaf', name: 'bsaf', version: '1.9.2'],
+            [group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'],
+            [group: 'net.jcip', name: 'jcip-annotations', version: '1.0'],
+            [group: 'org.bushe', name: 'eventbus', version: '1.4'],
+            [group: 'ch.qos.logback', name: 'logback-classic', version: '1.1.7'],
+            [group: 'com.jgoodies', name: 'jgoodies-forms', version: '1.9.0'],
+            [group: 'com.jgoodies', name: 'jgoodies-looks', version: '2.7.0'],
+            [group: 'javax.media', name: 'jai-core', version: '1.1.3'],
+            [group: 'net.imagej', name: 'ij', version: '1.51f'],
+            [group: 'de.intarsys.opensource', name: 'jPodRenderer', version: '5.6'],
+            [group: 'org.audiveris', name: 'proxymusic', version: '3.0.1'],
+            [group: 'org.jgrapht', name: 'jgrapht-core', version: '1.0.1'],
+            [group: 'org.jfree', name: 'jfreechart', version: '1.0.19'],
+            [group: 'com.itextpdf', name: 'itextpdf', version: '5.5.9'],
+            [group: 'gov.nist.math', name: 'jama', version: '1.0.3'],
+            [group: 'org.reflections', name: 'reflections', version: '0.9.10'],
+            [group: 'org.bytedeco', name: 'javacpp', version: '1.3'],
+            [group: 'org.bytedeco.javacpp-presets', name: 'leptonica', version: '1.73-1.3'],
+            [group: 'org.bytedeco.javacpp-presets', name: 'tesseract', version: '3.04.01-1.3'],
+            [group: 'com.github.jai-imageio', name: 'jai-imageio-core', version: '1.3.1'],
+//        [group: 'org.deeplearning4j', name: 'deeplearning4j-core', version: "${project.ext.dl4jVersion}"],
+//        [group: 'org.nd4j', name: 'nd4j-native', version: "${project.ext.nd4jVersion}"],
+            [group: 'org.apache.directory.studio', name: 'org.apache.commons.io', version: '2.4']
+    )
+
+    runtime(
+//        [group: 'org.nd4j', name: 'nd4j-native', version: "${project.ext.nd4jVersion}", classifier: "${project.ext.targetOS}"],
+            [group: 'org.bytedeco.javacpp-presets', name: 'leptonica', version: '1.73-1.3', classifier: "${project.ext.targetOS}"],
+            [group: 'org.bytedeco.javacpp-presets', name: 'tesseract', version: '3.04.01-1.3', classifier: "${project.ext.targetOS}"]
+    )
+
+    testCompile(
+            [group: 'junit', name: 'junit', version: '4.10'],
+            [group: 'org.jgrapht', name: 'jgrapht-ext', version: '1.0.1']
+    )
+}
