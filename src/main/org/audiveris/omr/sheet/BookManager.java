@@ -621,7 +621,7 @@ public class BookManager
                 "Should we use Opus notion for export (rather than separate files)?");
 
         private final Constant.Boolean useCompression = new Constant.Boolean(
-                true,
+                false,
                 "Should we compress the MusicXML output?");
 
         private final Constant.Boolean useSeparateBookFolders = new Constant.Boolean(
