@@ -115,6 +115,9 @@ dependencies {
 //        [group: 'org.deeplearning4j', name: 'deeplearning4j-core', version: "${project.ext.dl4jVersion}"],
 //        [group: 'org.nd4j', name: 'nd4j-native', version: "${project.ext.nd4jVersion}"],
             [group: 'org.apache.directory.studio', name: 'org.apache.commons.io', version: '2.4']
+//            [group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'],
+//            [group: 'org.projectlombok', name: 'lombok', version: '1.18.2']
+
     )
 
     runtime(
