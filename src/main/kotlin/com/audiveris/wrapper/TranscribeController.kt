@@ -1,9 +1,6 @@
 package com.audiveris.wrapper
 
-import com.sun.javafx.tools.packager.Log
 import lombok.extern.slf4j.Slf4j
-import org.audiveris.omr.log.LogUtil
-import org.audiveris.omr.util.FileUtil
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
@@ -24,9 +21,7 @@ class TranscribeController {
             val outputFile = File("$outDir/$tempFileName/$tempFileName.xml")
 
             file.transferTo(tempFile)
-            Log.info("temp file created : " +  tempFile.absolutePath)
             val args = arrayOf("-batch", "-export", "-output", outDir, "--", tempFile.absolutePath )
-            Log.debug(file.originalFilename + "will be transcribed!" )
             return try {
                 org.audiveris.omr.Main.main(args)
                 outputFile.absolutePath
