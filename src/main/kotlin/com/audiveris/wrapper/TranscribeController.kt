@@ -13,9 +13,10 @@ import org.slf4j.LoggerFactory
 class TranscribeController {
 
     @PostMapping("/transcribe")
-    fun transcribe(@RequestParam("file") file: MultipartFile): String {
+    fun transcribe(@RequestParam("file") file: MultipartFile,
+                   @RequestParam("userId") userId: String): String {
         if (! file.isEmpty) {
-            val outDir = "data/examples/output/"
+            val outDir = "data/sheet-xml/$userId"
             val tempFile = File.createTempFile("temp", ".png")
             val tempFileName = tempFile.name.split(".").first()
             val outputFile = File("$outDir/$tempFileName/$tempFileName.xml")
