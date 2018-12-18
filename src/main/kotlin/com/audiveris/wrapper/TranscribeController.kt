@@ -14,17 +14,30 @@ class TranscribeController {
 
     @PostMapping("/transcribe")
     fun transcribe(@RequestParam("file") file: MultipartFile,
-                   @RequestParam("userId") userId: String): String {
+                   @RequestParam("userId") userId: String,
+                   @RequestParam("sheetName") sheetName: String): String {
         if (! file.isEmpty) {
-            val outDir = "data/sheet-xml/$userId"
-            val tempFile = File.createTempFile("temp", ".png")
-            val tempFileName = tempFile.name.split(".").first()
-            val outputFile = File("$outDir/$tempFileName/$tempFileName.xml")
+            val outDir = File("data/sheet-xml/$userId")
+            if(! outDir.exists()) {
+                outDir.mkdir()
+            }
+
+            val splits = file.originalFilename.split(".")
+            val postfix = splits[splits.size-1]
+
+            val tempFile = File(System.getProperty("java.io.tmpdir") + "/$userId/$sheetName.$postfix")
+            tempFile.parentFile.mkdirs()
+            tempFile.createNewFile()
+
+//            val tempFile = File.createTempFile(sheetName, postfix)
+
+            val outputFile = File("$outDir/$sheetName/$sheetName.xml")
 
             file.transferTo(tempFile)
-            val args = arrayOf("-batch", "-export", "-output", outDir, "--", tempFile.absolutePath )
+            val args = arrayOf("-batch", "-export", "-output", outDir.absolutePath, "--", tempFile.absolutePath )
             return try {
                 org.audiveris.omr.Main.main(args)
+
                 outputFile.absolutePath
             } catch (e: Exception) {
                 logger.debug("transcribe file ${file.originalFilename} failed ")
