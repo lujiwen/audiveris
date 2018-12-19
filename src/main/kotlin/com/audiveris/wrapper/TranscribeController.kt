@@ -14,8 +14,7 @@ class TranscribeController {
 
     @PostMapping("/transcribe")
     fun transcribe(@RequestParam("file") file: MultipartFile,
-                   @RequestParam("userId") userId: String,
-                   @RequestParam("sheetName") sheetName: String): String {
+                   @RequestParam ("userId") userId: String): String {
         if (! file.isEmpty) {
             val outDir = File("data/sheet-xml/$userId")
             if(! outDir.exists()) {
@@ -24,12 +23,10 @@ class TranscribeController {
 
             val splits = file.originalFilename.split(".")
             val postfix = splits[splits.size-1]
-
+            val sheetName = splits[0]
             val tempFile = File(System.getProperty("java.io.tmpdir") + "/$userId/$sheetName.$postfix")
             tempFile.parentFile.mkdirs()
             tempFile.createNewFile()
-
-//            val tempFile = File.createTempFile(sheetName, postfix)
 
             val outputFile = File("$outDir/$sheetName/$sheetName.xml")
 
