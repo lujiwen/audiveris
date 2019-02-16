@@ -36,22 +36,23 @@ println "targetOS=${project.ext.targetOS}"
 
 //
 //
-//sourceSets {
-//    main {
-//        java {
-//            srcDir 'src/main'
-//        }
-//        resources {
-//            srcDir 'src/main'
-//            srcDir 'dev/icons'
-//        }
-//    }
-//    test {
-//        java {
-//            srcDir 'src/test'
-//        }
-//    }
-//}
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+            srcDir 'src/main/kotlin'
+        }
+        resources {
+            srcDir 'src/main'
+            srcDir 'dev/icons'
+        }
+    }
+    test {
+        java {
+            srcDir 'src/test'
+        }
+    }
+}
 
 
 apply plugin: 'kotlin' // Required for Kotlin integration
@@ -81,7 +82,7 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
-mainClassName = "wrapper.ApplicationKt"
+mainClassName = "com.audiveris.wrapper.wrapper.ApplicationKt"
 
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.16.20'
