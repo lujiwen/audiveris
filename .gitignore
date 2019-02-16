@@ -14,5 +14,6 @@
 *.iml
 *.ipr
 
+/out/
 /gradlew.bat
 /data/examples/output/
