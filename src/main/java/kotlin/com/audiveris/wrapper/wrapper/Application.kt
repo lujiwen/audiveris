@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc
 
 
 @SpringBootApplication
-class Application
+open class Application
 
 fun main(args: Array<String>) {
     SpringApplication.run(Application::class.java, *args)
@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
 
 @Configuration
 @EnableWebMvc
-class WebConfig : WebMvcConfigurerAdapter() {
+open class WebConfig : WebMvcConfigurerAdapter() {
 
     override fun addCorsMappings(registry: CorsRegistry?) {
         registry!!.addMapping("/**")

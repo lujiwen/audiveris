@@ -46,7 +46,7 @@ public final class Audiveris
      */
     public static void main (String[] args)
     {
-        args = new String[]{"-batch" ,"-export" , "-output" , "./data/examples/output", "--", "./data/examples/carmen.png"};
+        args = new String[]{"-batch" ,"-export" , "-output" , "./data/examples/output", "--", "./data/examples/qinghuaci.pdf"};
         org.audiveris.omr.Main.main(args);
     }
 }

@@ -36,24 +36,24 @@ println "targetOS=${project.ext.targetOS}"
 
 //
 //
-sourceSets {
-    main {
-        java {
-            srcDir 'src/main/java'
-            srcDir 'src/main/kotlin'
-        }
-        resources {
-            srcDir 'src/main'
-            srcDir 'src/resources'
-            srcDir 'dev/icons'
-        }
-    }
-    test {
-        java {
-            srcDir 'src/test'
-        }
-    }
-}
+//sourceSets {
+//    main {
+//        java {
+//            srcDir 'src/main/java'
+//            srcDir 'src/main/kotlin'
+//        }
+//        resources {
+//            srcDir 'src/main'
+//            srcDir 'src/resources'
+//            srcDir 'dev/icons'
+//        }
+//    }
+//    test {
+//        java {
+//            srcDir 'src/test'
+//        }
+//    }
+//}
 
 
 apply plugin: 'kotlin' // Required for Kotlin integration
