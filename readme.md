@@ -30,3 +30,9 @@ java -jar audiveris-wrapper/build/audiveries-wrapper.jar &
 the jar can be scp to remote host from a local artifact. but can not be build now on remote host, may limited by memory quota
 
 
+
+# troubleshooting
+
+java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+reset java home to java 8 
