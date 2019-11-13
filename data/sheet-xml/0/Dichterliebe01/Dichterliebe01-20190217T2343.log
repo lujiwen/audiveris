@@ -1,0 +1,258 @@
+2019-02-17 23:43:52,716 INFO [Dichterliebe01]            BasicBook.java:497  | 2 sheets in /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/0/Dichterliebe01.pdf
+2019-02-17 23:43:53,141 INFO []            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:43:53,142 INFO []            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/Dichterliebe01/Dichterliebe01.omr
+2019-02-17 23:43:53,145 INFO []            BasicBook.java:1112 | Book reaching PAGE on sheets:[#1#2]
+2019-02-17 23:43:53,146 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | LOAD
+2019-02-17 23:43:53,265 INFO [Dichterliebe01#1]            BasicBook.java:1027 | Loaded image 1 2549x3299 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/0/Dichterliebe01.pdf
+2019-02-17 23:43:53,267 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:43:53,268 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:43:53,269 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | BINARY
+2019-02-17 23:43:54,266 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:43:54,613 INFO [Dichterliebe01#1]              Picture.java:797  | Stored /sheet#1/BINARY.xml
+2019-02-17 23:43:54,614 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:43:54,617 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | SCALE
+2019-02-17 23:43:54,626 INFO [Dichterliebe01#1]         ScaleBuilder.java:526  | Second combo peak too different (150,150,150), ignored
+2019-02-17 23:43:54,626 INFO [Dichterliebe01#1]            ScaleStep.java:87   | Scale{line(2,3,4) interline(18,19,19) beam(10)}
+2019-02-17 23:43:54,629 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:43:54,630 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:43:54,631 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | GRID
+2019-02-17 23:43:55,101 INFO [Dichterliebe01#1]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-02-17 23:43:55,130 INFO [Dichterliebe01#1]    ClustersRetriever.java:242  | Retrieved line clusters: 9 of size: 5 with interline: (18,19,19)
+2019-02-17 23:43:55,959 INFO [Dichterliebe01#1]            PeakGraph.java:181  | Systems: #1[1, 2, 3] #2[4, 5, 6] #3[7, 8, 9]
+2019-02-17 23:43:57,246 INFO [Dichterliebe01#1]        SystemManager.java:662  | Indentation detected for system#1
+2019-02-17 23:43:57,246 INFO [Dichterliebe01#1]        SystemManager.java:745  | 2 parts along 3 systems
+2019-02-17 23:43:57,248 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:43:57,306 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:43:57,307 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | HEADERS
+2019-02-17 23:43:58,351 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:43:58,645 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:43:58,648 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | STEM_SEEDS
+2019-02-17 23:43:58,746 INFO [Dichterliebe01#1]        StemSeedsStep.java:92   | stem(2 max:4)
+2019-02-17 23:43:58,765 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:43:58,951 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:43:58,953 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | BEAMS
+2019-02-17 23:44:06,077 INFO [Dichterliebe01#1]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 17.1
+2019-02-17 23:44:06,369 INFO [Dichterliebe01#1]       BlackHeadSizer.java:251  | Core black head count: 78 blackHead(width:22.8~0.4 height:19.9~1.5)
+2019-02-17 23:44:06,371 INFO [Dichterliebe01#1]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:76}
+2019-02-17 23:44:06,551 INFO [Dichterliebe01#1]            BeamsStep.java:89   | BeamDistance{count:42 mean:13.04 stdDev:3.54}
+2019-02-17 23:44:06,553 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:06,618 INFO [Dichterliebe01#1]              Picture.java:797  | Stored /sheet#1/HEAD_SPOTS.xml
+2019-02-17 23:44:07,151 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:07,153 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | LEDGERS
+2019-02-17 23:44:07,941 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:08,286 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:08,288 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | HEADS
+2019-02-17 23:44:18,996 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:19,584 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:19,585 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | STEMS
+2019-02-17 23:44:20,136 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:20,802 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:20,805 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | REDUCTION
+2019-02-17 23:44:20,889 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:21,408 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:21,410 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | CUE_BEAMS
+2019-02-17 23:44:21,419 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:21,940 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:21,943 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | TEXTS
+2019-02-17 23:44:24,652 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:25,239 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:25,241 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | MEASURES
+2019-02-17 23:44:25,243 INFO [Dichterliebe01#1]                 Page.java:260  | 12 raw measures: [4 in system#1, 4 in system#2, 4 in system#3]
+2019-02-17 23:44:25,244 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:25,848 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:25,849 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | CHORDS
+2019-02-17 23:44:25,868 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:26,517 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:26,524 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | CURVES
+2019-02-17 23:44:28,476 INFO [Dichterliebe01#1]         SlursBuilder.java:157  | Slurs: 52
+2019-02-17 23:44:28,493 INFO [Dichterliebe01#1]      SegmentsBuilder.java:114  | Segments: 15
+2019-02-17 23:44:28,497 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:32,481 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:32,486 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | SYMBOLS
+2019-02-17 23:44:33,917 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:35,583 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:35,584 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | LINKS
+2019-02-17 23:44:35,644 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:36,674 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:36,679 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | RHYTHMS
+2019-02-17 23:44:36,721 INFO [Dichterliebe01#1]           PageRhythm.java:380  | Range{1-12 ts:2/4 dur:1/2} guess:1/2
+2019-02-17 23:44:36,792 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:37,836 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:37,840 INFO [Dichterliebe01#1]       StepMonitoring.java:96   | PAGE
+2019-02-17 23:44:37,845 INFO [Dichterliebe01#1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:38,978 INFO [Dichterliebe01#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 23:44:38,980 INFO [Dichterliebe01#1]            BasicStub.java:758  | Sheet{Dichterliebe01#1} disposed
+2019-02-17 23:44:39,274 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | LOAD
+2019-02-17 23:44:39,317 INFO [Dichterliebe01#2]            BasicBook.java:1027 | Loaded image 2 2549x3299 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/0/Dichterliebe01.pdf
+2019-02-17 23:44:39,319 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:39,319 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:44:39,321 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | BINARY
+2019-02-17 23:44:40,377 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:40,756 INFO [Dichterliebe01#2]              Picture.java:797  | Stored /sheet#2/BINARY.xml
+2019-02-17 23:44:40,758 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:44:40,760 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | SCALE
+2019-02-17 23:44:40,769 INFO [Dichterliebe01#2]         ScaleBuilder.java:526  | Second combo peak too different (175,175,175), ignored
+2019-02-17 23:44:40,770 INFO [Dichterliebe01#2]            ScaleStep.java:87   | Scale{line(2,3,4) interline(18,19,19) beam(10)}
+2019-02-17 23:44:40,773 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:40,774 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:44:40,777 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | GRID
+2019-02-17 23:44:41,279 INFO [Dichterliebe01#2]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-02-17 23:44:41,295 INFO [Dichterliebe01#2]    ClustersRetriever.java:242  | Retrieved line clusters: 12 of size: 5 with interline: (18,19,19)
+2019-02-17 23:44:41,583 INFO [Dichterliebe01#2]            PeakGraph.java:181  | Systems: #1[1, 2, 3] #2[4, 5, 6] #3[7, 8, 9] #4[10, 11, 12]
+2019-02-17 23:44:42,280 INFO [Dichterliebe01#2]        SystemManager.java:745  | 2 parts along 4 systems
+2019-02-17 23:44:42,282 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:42,360 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:44:42,362 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | HEADERS
+2019-02-17 23:44:43,163 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:43,381 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:44:43,385 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | STEM_SEEDS
+2019-02-17 23:44:43,474 INFO [Dichterliebe01#2]        StemSeedsStep.java:92   | stem(2 max:3)
+2019-02-17 23:44:43,486 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:43,711 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:44:43,715 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | BEAMS
+2019-02-17 23:44:50,512 INFO [Dichterliebe01#2]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 17.1
+2019-02-17 23:44:50,877 INFO [Dichterliebe01#2]       BlackHeadSizer.java:251  | Core black head count: 96 blackHead(width:22.9~0.6 height:19.8~1.3)
+2019-02-17 23:44:50,878 INFO [Dichterliebe01#2]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:77}
+2019-02-17 23:44:51,122 INFO [Dichterliebe01#2]            BeamsStep.java:89   | BeamDistance{count:50 mean:12.62 stdDev:4.09}
+2019-02-17 23:44:51,126 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:51,204 INFO [Dichterliebe01#2]              Picture.java:797  | Stored /sheet#2/HEAD_SPOTS.xml
+2019-02-17 23:44:51,924 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:44:51,930 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | LEDGERS
+2019-02-17 23:44:52,877 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:44:53,351 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:44:53,355 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | HEADS
+2019-02-17 23:45:07,121 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:07,885 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:07,893 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | STEMS
+2019-02-17 23:45:08,531 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:09,409 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:09,412 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | REDUCTION
+2019-02-17 23:45:09,501 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:10,289 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:10,291 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | CUE_BEAMS
+2019-02-17 23:45:10,293 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:11,096 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:11,099 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | TEXTS
+2019-02-17 23:45:12,905 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:13,681 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:13,684 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | MEASURES
+2019-02-17 23:45:13,686 INFO [Dichterliebe01#2]                 Page.java:260  | 15 raw measures: [4 in system#1, 4 in system#2, 3 in system#3, 4 in system#4]
+2019-02-17 23:45:13,687 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:14,522 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:14,527 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | CHORDS
+2019-02-17 23:45:14,549 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:15,410 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:15,415 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | CURVES
+2019-02-17 23:45:16,807 INFO [Dichterliebe01#2]         SlursBuilder.java:157  | Slurs: 56
+2019-02-17 23:45:16,819 INFO [Dichterliebe01#2]      SegmentsBuilder.java:114  | Segments: 21
+2019-02-17 23:45:16,824 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:17,927 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:17,929 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | SYMBOLS
+2019-02-17 23:45:18,475 INFO [Dichterliebe01#2]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:19,693 INFO [Dichterliebe01#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:19,696 INFO [Dichterliebe01#2]       StepMonitoring.java:96   | LINKS
+2019-02-17 23:45:19,724 WARN [Dichterliebe01#2]   AbstractSystemStep.java:201  | S2 java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at org.audiveris.omr.sig.inter.Inters$3.compare(Inters.java:95)
+	at org.audiveris.omr.sig.inter.Inters$3.compare(Inters.java:90)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:360)
+	at java.util.TimSort.sort(TimSort.java:234)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1462)
+	at java.util.Collections.sort(Collections.java:175)
+	at org.audiveris.omr.sig.SigReducer.detectOverlaps(SigReducer.java:1337)
+	at org.audiveris.omr.sig.SigReducer.reduce(SigReducer.java:1659)
+	at org.audiveris.omr.sig.SigReducer.reduceLinks(SigReducer.java:220)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:110)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:60)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:199)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:182)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:220)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:106)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-17 23:45:19,741 INFO [Dichterliebe01#2]        SymbolsLinker.java:426  | No chord above PedalInter{#5807(0.628) PEDAL_UP_MARK}
+2019-02-17 23:45:19,742 INFO [Dichterliebe01#2]        SymbolsLinker.java:426  | No chord above PedalInter{#5809(0.798) PEDAL_UP_MARK}
+2019-02-17 23:45:19,757 WARN [Dichterliebe01#2]              Measure.java:611  | No clef found in {Staff id=5 left:153 right:2397} before java.awt.Point[x=670,y=1300]
+2019-02-17 23:45:19,762 WARN [Dichterliebe01#2]            BasicStub.java:614  | Error in performing [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE] java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No clef found in {Staff id=5 left:153 right:2397} before java.awt.Point[x=670,y=1300]
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No clef found in {Staff id=5 left:153 right:2397} before java.awt.Point[x=670,y=1300]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at org.audiveris.omr.sheet.BasicStub.doOneStep(BasicStub.java:887)
+	at org.audiveris.omr.sheet.BasicStub.reachStep(BasicStub.java:601)
+	at org.audiveris.omr.sheet.BasicBook.reachBookStep(BasicBook.java:1179)
+	at org.audiveris.omr.sheet.BasicBook.transcribe(BasicBook.java:1552)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:628)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at com.audiveris.wrapper.wrapper.TranscribeController.transcribe(TranscribeController.kt:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: No clef found in {Staff id=5 left:153 right:2397} before java.awt.Point[x=670,y=1300]
+	at org.audiveris.omr.sheet.rhythm.Measure.getClefBefore(Measure.java:612)
+	at org.audiveris.omr.sig.inter.AbstractNoteInter.getStep(AbstractNoteInter.java:245)
+	at org.audiveris.omr.sig.inter.HeadInter.haveSameHeight(HeadInter.java:411)
+	at org.audiveris.omr.sig.inter.SlurInter.checkStaffTie(SlurInter.java:409)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doEpilog(LinksStep.java:197)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doEpilog(LinksStep.java:60)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:109)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 common frames omitted
+2019-02-17 23:45:20,796 INFO [Dichterliebe01]            BasicStub.java:484  | Loaded /sheet#1/sheet#1.xml
+2019-02-17 23:45:20,797 INFO [Dichterliebe01]            BasicBook.java:1233 | Scores built: 1
+2019-02-17 23:45:20,830 INFO [Dichterliebe01]        ScoreExporter.java:93   | Score Dichterliebe01 exported to /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/Dichterliebe01/Dichterliebe01.xml
+2019-02-17 23:45:21,140 INFO [Dichterliebe01]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 23:45:22,072 INFO [Dichterliebe01]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-02-17 23:45:22,073 INFO [Dichterliebe01]            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/Dichterliebe01/Dichterliebe01.omr

@@ -28,11 +28,24 @@ openjdk:8-jdk-alpine  \
 java -jar audiveris-wrapper/build/audiveries-wrapper.jar & 
 
 the jar can be scp to remote host from a local artifact. but can not be build now on remote host, may limited by memory quota
+``
+scp /Users/lujiwen/go/src/audiveris-wrapper/build/libs/audiveries-wrapper-0.1.0.jar root@aliyun:/root/audiveris-wrapper/build/audiveries-wrapper.jar
 
+``
+http://47.98.138.29/
 
 
 # troubleshooting
 
-java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+- java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
 
 reset java home to java 8 
+
+- Could not initialize class de.intarsys.cwt.freetype.Freetype
+
+
+
+``
+Audiveris software is coded in Java but uses some external binaries (Leptonica and Tesseract today, plus certainly ND4J tomorrow). Mind the fact that, because of these binaries, the JRE and installer architectures must match. Otherwise Audiveris will fail to run, with error messages saying for example that jnilept library cannot be loaded.
+To check your existing java environment, you can use the command: java -version from a terminal window.
+``

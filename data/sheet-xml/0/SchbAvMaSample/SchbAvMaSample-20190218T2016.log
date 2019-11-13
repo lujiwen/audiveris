@@ -1,0 +1,156 @@
+2019-02-18 20:16:58,767 INFO [SchbAvMaSample]            BasicBook.java:497  | 1 sheet in /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/0/SchbAvMaSample.pdf
+2019-02-18 20:16:59,118 INFO []            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:16:59,118 INFO []            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/SchbAvMaSample/SchbAvMaSample.omr
+2019-02-18 20:16:59,120 INFO []            BasicBook.java:1112 | Book reaching PAGE on sheets:[#1]
+2019-02-18 20:16:59,120 INFO [SchbAvMaSample]       StepMonitoring.java:96   | LOAD
+2019-02-18 20:16:59,188 INFO [SchbAvMaSample]            BasicBook.java:1027 | Loaded image 1 2549x3299 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/0/SchbAvMaSample.pdf
+2019-02-18 20:16:59,191 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:16:59,192 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:16:59,193 INFO [SchbAvMaSample]       StepMonitoring.java:96   | BINARY
+2019-02-18 20:16:59,986 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:00,390 INFO [SchbAvMaSample]              Picture.java:797  | Stored /sheet#1/BINARY.xml
+2019-02-18 20:17:00,391 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:00,392 INFO [SchbAvMaSample]       StepMonitoring.java:96   | SCALE
+2019-02-18 20:17:00,400 INFO [SchbAvMaSample]            ScaleStep.java:87   | Scale{line(1,2,3) interline(18,19,19) beam(10)}
+2019-02-18 20:17:00,402 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:00,403 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:00,405 INFO [SchbAvMaSample]       StepMonitoring.java:96   | GRID
+2019-02-18 20:17:01,430 INFO [SchbAvMaSample]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-02-18 20:17:01,468 INFO [SchbAvMaSample]    ClustersRetriever.java:818  | Pairing clusters CC3 & CC160
+2019-02-18 20:17:01,474 INFO [SchbAvMaSample]    ClustersRetriever.java:242  | Retrieved line clusters: 11 of size: 5 with interline: (18,19,19)
+2019-02-18 20:17:02,324 INFO [SchbAvMaSample]            PeakGraph.java:181  | Systems: #1[1, 2] #2[3, 4, 5] #3[6, 7, 8] #4[9, 10, 11]
+2019-02-18 20:17:03,294 INFO [SchbAvMaSample]        SystemManager.java:662  | Indentation detected for system#1
+2019-02-18 20:17:03,295 INFO [SchbAvMaSample]        SystemManager.java:745  | 2 parts along 4 systems
+2019-02-18 20:17:03,296 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:03,356 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:03,359 INFO [SchbAvMaSample]       StepMonitoring.java:96   | HEADERS
+2019-02-18 20:17:03,785 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:03,908 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:03,909 INFO [SchbAvMaSample]       StepMonitoring.java:96   | STEM_SEEDS
+2019-02-18 20:17:03,991 INFO [SchbAvMaSample]        StemSeedsStep.java:92   | stem(3 max:4)
+2019-02-18 20:17:04,010 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:04,164 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:04,166 INFO [SchbAvMaSample]       StepMonitoring.java:96   | BEAMS
+2019-02-18 20:17:09,854 INFO [SchbAvMaSample]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 17.1
+2019-02-18 20:17:10,459 INFO [SchbAvMaSample]       BlackHeadSizer.java:251  | Core black head count: 112 blackHead(width:23.0~0.4 height:19.7~1.2)
+2019-02-18 20:17:10,459 INFO [SchbAvMaSample]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:77}
+2019-02-18 20:17:10,649 INFO [SchbAvMaSample]            BeamsStep.java:89   | BeamDistance{count:37 mean:14.12 stdDev:0.29}
+2019-02-18 20:17:10,653 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:10,737 INFO [SchbAvMaSample]              Picture.java:797  | Stored /sheet#1/HEAD_SPOTS.xml
+2019-02-18 20:17:11,385 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:11,389 INFO [SchbAvMaSample]       StepMonitoring.java:96   | LEDGERS
+2019-02-18 20:17:12,676 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:13,108 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:13,110 INFO [SchbAvMaSample]       StepMonitoring.java:96   | HEADS
+2019-02-18 20:17:25,555 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:26,388 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:26,392 INFO [SchbAvMaSample]       StepMonitoring.java:96   | STEMS
+2019-02-18 20:17:27,656 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:28,661 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:28,663 INFO [SchbAvMaSample]       StepMonitoring.java:96   | REDUCTION
+2019-02-18 20:17:28,834 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:29,737 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:29,739 INFO [SchbAvMaSample]       StepMonitoring.java:96   | CUE_BEAMS
+2019-02-18 20:17:29,749 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:30,657 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:30,658 INFO [SchbAvMaSample]       StepMonitoring.java:96   | TEXTS
+2019-02-18 20:17:39,282 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:40,207 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:40,212 INFO [SchbAvMaSample]       StepMonitoring.java:96   | MEASURES
+2019-02-18 20:17:40,213 INFO [SchbAvMaSample]                 Page.java:260  | 9 raw measures: [2 in system#1, 3 in system#2, 2 in system#3, 2 in system#4]
+2019-02-18 20:17:40,214 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:41,142 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:41,144 INFO [SchbAvMaSample]       StepMonitoring.java:96   | CHORDS
+2019-02-18 20:17:41,166 INFO [SchbAvMaSample]        ChordsBuilder.java:282  | Deleting StemInter{#4683(0.733/0.797)} on RIGHT side of HeadInter{#3953(0.621/0.843) s:10 p:-1.00 NOTEHEAD_BLACK}
+2019-02-18 20:17:41,171 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:42,135 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:42,138 INFO [SchbAvMaSample]       StepMonitoring.java:96   | CURVES
+2019-02-18 20:17:43,574 INFO [SchbAvMaSample]         SlursBuilder.java:157  | Slurs: 18
+2019-02-18 20:17:43,590 INFO [SchbAvMaSample]      SegmentsBuilder.java:114  | Segments: 20
+2019-02-18 20:17:43,592 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:44,807 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:44,811 INFO [SchbAvMaSample]       StepMonitoring.java:96   | SYMBOLS
+2019-02-18 20:17:45,556 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:46,897 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:46,901 INFO [SchbAvMaSample]       StepMonitoring.java:96   | LINKS
+2019-02-18 20:17:46,920 INFO [SchbAvMaSample]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#4936(0.651) s:3 S-39 Direction} col Pedale
+2019-02-18 20:17:46,982 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:48,331 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:48,333 INFO [SchbAvMaSample]       StepMonitoring.java:96   | RHYTHMS
+2019-02-18 20:17:48,361 INFO [SchbAvMaSample]         SlotsBuilder.java:401  | Stack#4 suspicious Slot{#11 xOffset=486 timeOffset=5/8 incomings=[#5584]}
+2019-02-18 20:17:48,370 INFO [SchbAvMaSample]         SlotsBuilder.java:401  | Stack#5 suspicious Slot{#20 xOffset=801 timeOffset=19/16 incomings=[#5611]}
+2019-02-18 20:17:48,379 INFO [SchbAvMaSample]         SlotsBuilder.java:401  | Stack#6 suspicious Slot{#16 xOffset=782 timeOffset=15/16 incomings=[#5656#7055]}
+2019-02-18 20:17:48,387 INFO [SchbAvMaSample]         SlotsBuilder.java:401  | Stack#7 suspicious Slot{#10 xOffset=394 timeOffset=9/16 incomings=[#5671#7061]}
+2019-02-18 20:17:48,395 INFO [SchbAvMaSample]         SlotsBuilder.java:401  | Stack#8 suspicious Slot{#11 xOffset=555 timeOffset=5/8 incomings=[#5720]}
+2019-02-18 20:17:48,407 INFO [SchbAvMaSample]           PageRhythm.java:380  | Range{1-9 ts:4/4 dur:1} guess:1
+2019-02-18 20:17:48,415 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#1P1} Voice #1 too long 1/2
+2019-02-18 20:17:48,415 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#1P1} Voice #2 too long 1/2
+2019-02-18 20:17:48,416 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#1P1} Voice #5 too long 7/16
+2019-02-18 20:17:48,416 INFO [SchbAvMaSample]           StackTuner.java:92   | S1 MeasureStack#1 no correct rhythm
+2019-02-18 20:17:48,424 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#2P1} Voice #1 too long 1/2
+2019-02-18 20:17:48,424 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#2P1} Voice #5 too long 7/16
+2019-02-18 20:17:48,425 INFO [SchbAvMaSample]           StackTuner.java:92   | S1 MeasureStack#2 no correct rhythm
+2019-02-18 20:17:48,434 INFO [SchbAvMaSample]         SlotsBuilder.java:432  | S2 MeasureStack#4 Slot{#24 xOffset=1003 timeOffset=11/8 incomings=[#6990#5594#5595] SUSPICIOUS}
+2019-02-18 20:17:48,434 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#4P1} Voice #1 too long 5/8
+2019-02-18 20:17:48,435 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#4P2} Voice #1 too long 7/16
+2019-02-18 20:17:48,435 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#4P2} Voice #5 too long 7/16
+2019-02-18 20:17:48,435 INFO [SchbAvMaSample]           StackTuner.java:92   | S2 MeasureStack#4 no correct rhythm
+2019-02-18 20:17:48,444 INFO [SchbAvMaSample]         SlotsBuilder.java:432  | S2 MeasureStack#5 Slot{#24 xOffset=888 timeOffset=21/16 incomings=[#5613] SUSPICIOUS}
+2019-02-18 20:17:48,445 INFO [SchbAvMaSample]         SlotsBuilder.java:439  | Stack#5 endless loop detected
+2019-02-18 20:17:48,445 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#5P1} Voice #1 too long 5/16
+2019-02-18 20:17:48,445 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#5P2} Voice #1 too long 3/8
+2019-02-18 20:17:48,445 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#5P2} Voice #5 too long 3/8
+2019-02-18 20:17:48,446 INFO [SchbAvMaSample]           StackTuner.java:92   | S2 MeasureStack#5 no correct rhythm
+2019-02-18 20:17:48,454 INFO [SchbAvMaSample]         SlotsBuilder.java:439  | Stack#6 endless loop detected
+2019-02-18 20:17:48,455 INFO [SchbAvMaSample]                Voice.java:264  | S3 {Measure#6P2} Voice #5 too long 1/16
+2019-02-18 20:17:48,455 INFO [SchbAvMaSample]           StackTuner.java:92   | S3 MeasureStack#6 no correct rhythm
+2019-02-18 20:17:48,463 INFO [SchbAvMaSample]         SlotsBuilder.java:432  | S3 MeasureStack#7 Slot{#12 xOffset=438 timeOffset=5/8 incomings=[#5672] SUSPICIOUS}
+2019-02-18 20:17:48,465 INFO [SchbAvMaSample]         SlotsBuilder.java:432  | S3 MeasureStack#7 Slot{#19 xOffset=673 timeOffset=1 incomings=[#5677] SUSPICIOUS}
+2019-02-18 20:17:48,468 INFO [SchbAvMaSample]                Voice.java:264  | S3 {Measure#7P1} Voice #1 too long 1/2
+2019-02-18 20:17:48,468 INFO [SchbAvMaSample]                Voice.java:264  | S3 {Measure#7P2} Voice #1 too long 1/2
+2019-02-18 20:17:48,468 INFO [SchbAvMaSample]                Voice.java:264  | S3 {Measure#7P2} Voice #5 too long 7/16
+2019-02-18 20:17:48,469 INFO [SchbAvMaSample]           StackTuner.java:92   | S3 MeasureStack#7 no correct rhythm
+2019-02-18 20:17:48,479 INFO [SchbAvMaSample]         SlotsBuilder.java:432  | S4 MeasureStack#8 Slot{#19 xOffset=785 timeOffset=1 incomings=[#5725] SUSPICIOUS}
+2019-02-18 20:17:48,480 INFO [SchbAvMaSample]         SlotsBuilder.java:432  | S4 MeasureStack#8 Slot{#23 xOffset=917 timeOffset=19/16 incomings=[#5727] SUSPICIOUS}
+2019-02-18 20:17:48,481 INFO [SchbAvMaSample]         SlotsBuilder.java:432  | S4 MeasureStack#8 Slot{#25 xOffset=986 timeOffset=5/4 incomings=[#5728] SUSPICIOUS}
+2019-02-18 20:17:48,482 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#8P1} Voice #1 too long 1/2
+2019-02-18 20:17:48,483 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#8P2} Voice #1 too long 1/2
+2019-02-18 20:17:48,483 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#8P2} Voice #5 too long 7/16
+2019-02-18 20:17:48,483 INFO [SchbAvMaSample]           StackTuner.java:92   | S4 MeasureStack#8 no correct rhythm
+2019-02-18 20:17:48,495 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#9P1} Voice #1 too long 7/16
+2019-02-18 20:17:48,495 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#9P2} Voice #1 too long 1/2
+2019-02-18 20:17:48,496 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#9P2} Voice #5 too long 7/16
+2019-02-18 20:17:48,496 INFO [SchbAvMaSample]           StackTuner.java:92   | S4 MeasureStack#9 no correct rhythm
+2019-02-18 20:17:48,497 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:49,886 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:49,890 INFO [SchbAvMaSample]       StepMonitoring.java:96   | PAGE
+2019-02-18 20:17:49,892 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#1P2} Voice #1 too long 1/2
+2019-02-18 20:17:49,892 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#1P2} Voice #2 too long 1/2
+2019-02-18 20:17:49,892 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#1P2} Voice #5 too long 7/16
+2019-02-18 20:17:49,892 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#2P2} Voice #1 too long 1/2
+2019-02-18 20:17:49,893 INFO [SchbAvMaSample]                Voice.java:264  | S1 {Measure#2P2} Voice #5 too long 7/16
+2019-02-18 20:17:49,893 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#4P1} Voice #1 too long 5/8
+2019-02-18 20:17:49,893 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#4P2} Voice #1 too long 7/16
+2019-02-18 20:17:49,893 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#4P2} Voice #5 too long 7/16
+2019-02-18 20:17:49,894 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#5P1} Voice #1 too long 5/16
+2019-02-18 20:17:49,894 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#5P2} Voice #1 too long 3/8
+2019-02-18 20:17:49,894 INFO [SchbAvMaSample]                Voice.java:264  | S2 {Measure#5P2} Voice #5 too long 3/8
+2019-02-18 20:17:49,895 INFO [SchbAvMaSample]                Voice.java:264  | S3 {Measure#6P2} Voice #5 too long 1/16
+2019-02-18 20:17:49,895 INFO [SchbAvMaSample]                Voice.java:264  | S3 {Measure#7P1} Voice #1 too long 1/2
+2019-02-18 20:17:49,895 INFO [SchbAvMaSample]                Voice.java:264  | S3 {Measure#7P2} Voice #1 too long 1/2
+2019-02-18 20:17:49,895 INFO [SchbAvMaSample]                Voice.java:264  | S3 {Measure#7P2} Voice #5 too long 7/16
+2019-02-18 20:17:49,895 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#8P1} Voice #1 too long 1/2
+2019-02-18 20:17:49,896 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#8P2} Voice #1 too long 1/2
+2019-02-18 20:17:49,896 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#8P2} Voice #5 too long 7/16
+2019-02-18 20:17:49,896 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#9P1} Voice #1 too long 7/16
+2019-02-18 20:17:49,896 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#9P2} Voice #1 too long 1/2
+2019-02-18 20:17:49,896 INFO [SchbAvMaSample]                Voice.java:264  | S4 {Measure#9P2} Voice #5 too long 7/16
+2019-02-18 20:17:49,897 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:51,267 INFO [SchbAvMaSample]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-18 20:17:51,271 INFO [SchbAvMaSample]            BasicStub.java:758  | Sheet{SchbAvMaSample} disposed
+2019-02-18 20:17:52,478 INFO [SchbAvMaSample]            BasicStub.java:484  | Loaded /sheet#1/sheet#1.xml
+2019-02-18 20:17:52,479 INFO [SchbAvMaSample]            BasicBook.java:1233 | Scores built: 1
+2019-02-18 20:17:52,482 INFO [SchbAvMaSample]                 Part.java:285  | Sheet#1 System#1 {Part#2 staves[1,2] name:SentenceInter{#4866(0.699/0.699) s:1 S-37 PartName}} dummyPart id: 1
+2019-02-18 20:17:52,545 INFO [SchbAvMaSample]        ScoreExporter.java:93   | Score SchbAvMaSample exported to /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/SchbAvMaSample/SchbAvMaSample.xml
+2019-02-18 20:17:52,657 INFO [SchbAvMaSample]            BasicBook.java:1501 | Stored /book.xml
+2019-02-18 20:17:52,658 INFO [SchbAvMaSample]            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/SchbAvMaSample/SchbAvMaSample.omr

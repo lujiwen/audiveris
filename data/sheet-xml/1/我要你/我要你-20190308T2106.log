@@ -1,0 +1,1026 @@
+2019-03-08 21:06:44,164 INFO [我要你]            BasicBook.java:497  | 7 sheets in /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/我要你.pdf
+2019-03-08 21:06:44,526 INFO []            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:44,526 INFO []            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/1/我要你/我要你.omr
+2019-03-08 21:06:44,533 INFO []            BasicBook.java:1112 | Book reaching PAGE on sheets:[#1#2#3#4#5#6#7]
+2019-03-08 21:06:44,535 INFO [我要你#1]       StepMonitoring.java:96   | LOAD
+2019-03-08 21:06:44,982 INFO [我要你#1]            BasicBook.java:1027 | Loaded image 1 2483x3508 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/我要你.pdf
+2019-03-08 21:06:44,987 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:45,235 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:06:45,237 INFO [我要你#1]       StepMonitoring.java:96   | BINARY
+2019-03-08 21:06:46,003 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:46,286 INFO [我要你#1]              Picture.java:797  | Stored /sheet#1/BINARY.xml
+2019-03-08 21:06:46,288 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:06:46,290 INFO [我要你#1]       StepMonitoring.java:96   | SCALE
+2019-03-08 21:06:46,312 INFO [我要你#1]         ScaleBuilder.java:526  | Second combo peak too different (115,115,115), ignored
+2019-03-08 21:06:46,313 INFO [我要你#1]            ScaleStep.java:87   | Scale{line(1,2,2) interline(20,21,21) beam(10)}
+2019-03-08 21:06:46,315 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:46,317 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:06:46,319 INFO [我要你#1]       StepMonitoring.java:96   | GRID
+2019-03-08 21:06:46,805 INFO [我要你#1]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-03-08 21:06:46,832 INFO [我要你#1]    ClustersRetriever.java:242  | Retrieved line clusters: 12 of size: 5 with interline: (20,21,21)
+2019-03-08 21:06:46,976 INFO [我要你#1]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5, 6] #2[7, 8, 9, 10, 11, 12]
+2019-03-08 21:06:47,027 INFO [我要你#1]        BarsRetriever.java:1396 | System#1
+2019-03-08 21:06:47,027 INFO [我要你#1]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2019-03-08 21:06:47,027 INFO [我要你#1]        BarsRetriever.java:1396 | System#2
+2019-03-08 21:06:47,027 INFO [我要你#1]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:8-9}
+2019-03-08 21:06:47,292 INFO [我要你#1]        SystemManager.java:662  | Indentation detected for system#1
+2019-03-08 21:06:47,293 INFO [我要你#1]        SystemManager.java:745  | 6 parts along 2 systems
+2019-03-08 21:06:47,298 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:47,386 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:06:47,388 INFO [我要你#1]       StepMonitoring.java:96   | HEADERS
+2019-03-08 21:06:47,521 INFO [我要你#1]      BasicClassifier.java:391  | Classifier loaded XML norms.
+2019-03-08 21:06:47,524 INFO [我要你#1]   AbstractClassifier.java:355  | Classifier data loaded from default uri file:///Users/lujiwen/go/src/audiveris-wrapper/res/basic-classifier.zip
+2019-03-08 21:06:48,841 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:49,008 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:06:49,011 INFO [我要你#1]       StepMonitoring.java:96   | STEM_SEEDS
+2019-03-08 21:06:49,111 INFO [我要你#1]        StemSeedsStep.java:92   | stem(2 max:3)
+2019-03-08 21:06:49,153 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:49,310 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:06:49,313 INFO [我要你#1]       StepMonitoring.java:96   | BEAMS
+2019-03-08 21:06:55,691 INFO [我要你#1]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-03-08 21:06:55,902 INFO [我要你#1]       BlackHeadSizer.java:251  | Core black head count: 41 blackHead(width:26.8~0.7 height:21.8~0.8)
+2019-03-08 21:06:55,907 INFO [我要你#1]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:90}
+2019-03-08 21:06:56,094 INFO [我要你#1]            BeamsStep.java:89   | BeamDistance{count:29 mean:3.43 stdDev:6.29}
+2019-03-08 21:06:56,097 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:56,154 INFO [我要你#1]              Picture.java:797  | Stored /sheet#1/HEAD_SPOTS.xml
+2019-03-08 21:06:56,631 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:06:56,635 INFO [我要你#1]       StepMonitoring.java:96   | LEDGERS
+2019-03-08 21:06:57,022 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:06:57,359 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:06:57,362 INFO [我要你#1]       StepMonitoring.java:96   | HEADS
+2019-03-08 21:07:12,022 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:12,528 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:12,532 INFO [我要你#1]       StepMonitoring.java:96   | STEMS
+2019-03-08 21:07:12,956 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:13,519 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:13,522 INFO [我要你#1]       StepMonitoring.java:96   | REDUCTION
+2019-03-08 21:07:13,574 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:14,097 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:14,100 INFO [我要你#1]       StepMonitoring.java:96   | CUE_BEAMS
+2019-03-08 21:07:14,103 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:14,656 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:14,659 INFO [我要你#1]       StepMonitoring.java:96   | TEXTS
+2019-03-08 21:07:16,934 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:17,407 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:17,408 INFO [我要你#1]       StepMonitoring.java:96   | MEASURES
+2019-03-08 21:07:17,415 INFO [我要你#1]                 Page.java:260  | 7 raw measures: [4 in system#1, 3 in system#2]
+2019-03-08 21:07:17,417 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:17,907 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:17,909 INFO [我要你#1]       StepMonitoring.java:96   | CHORDS
+2019-03-08 21:07:17,928 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:18,424 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:18,427 INFO [我要你#1]       StepMonitoring.java:96   | CURVES
+2019-03-08 21:07:20,415 INFO [我要你#1]         SlursBuilder.java:157  | Slurs: 1
+2019-03-08 21:07:20,428 INFO [我要你#1]      SegmentsBuilder.java:114  | Segments: 16
+2019-03-08 21:07:20,436 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:21,241 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:21,243 INFO [我要你#1]       StepMonitoring.java:96   | SYMBOLS
+2019-03-08 21:07:22,882 INFO [我要你#1]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:23,935 INFO [我要你#1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:07:23,937 INFO [我要你#1]       StepMonitoring.java:96   | LINKS
+2019-03-08 21:07:23,949 WARN [我要你#1]   AbstractSystemStep.java:201  | S1 java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at org.audiveris.omr.sig.inter.Inters$3.compare(Inters.java:95)
+	at org.audiveris.omr.sig.inter.Inters$3.compare(Inters.java:90)
+	at java.util.TimSort.binarySort(TimSort.java:296)
+	at java.util.TimSort.sort(TimSort.java:239)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1462)
+	at java.util.Collections.sort(Collections.java:175)
+	at org.audiveris.omr.sig.SigReducer.detectOverlaps(SigReducer.java:1337)
+	at org.audiveris.omr.sig.SigReducer.reduce(SigReducer.java:1659)
+	at org.audiveris.omr.sig.SigReducer.reduceLinks(SigReducer.java:220)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:110)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:60)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:199)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:182)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:220)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:106)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-08 21:07:23,963 WARN [我要你#1]              Measure.java:611  | No clef found in {Staff id=4 left:321 right:2328} before java.awt.Point[x=1194,y=1270]
+2019-03-08 21:07:23,965 WARN [我要你#1]            BasicStub.java:614  | Error in performing [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE] java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No clef found in {Staff id=4 left:321 right:2328} before java.awt.Point[x=1194,y=1270]
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No clef found in {Staff id=4 left:321 right:2328} before java.awt.Point[x=1194,y=1270]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at org.audiveris.omr.sheet.BasicStub.doOneStep(BasicStub.java:887)
+	at org.audiveris.omr.sheet.BasicStub.reachStep(BasicStub.java:601)
+	at org.audiveris.omr.sheet.BasicBook.reachBookStep(BasicBook.java:1179)
+	at org.audiveris.omr.sheet.BasicBook.transcribe(BasicBook.java:1552)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:628)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at com.audiveris.wrapper.wrapper.TranscribeController.transcribe(TranscribeController.kt:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: No clef found in {Staff id=4 left:321 right:2328} before java.awt.Point[x=1194,y=1270]
+	at org.audiveris.omr.sheet.rhythm.Measure.getClefBefore(Measure.java:612)
+	at org.audiveris.omr.sig.inter.AbstractNoteInter.getStep(AbstractNoteInter.java:245)
+	at org.audiveris.omr.sig.inter.HeadInter.haveSameHeight(HeadInter.java:411)
+	at org.audiveris.omr.sig.inter.SlurInter.checkStaffTie(SlurInter.java:409)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doEpilog(LinksStep.java:197)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doEpilog(LinksStep.java:60)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:109)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 common frames omitted
+2019-03-08 21:07:23,966 INFO [我要你#2]       StepMonitoring.java:96   | LOAD
+2019-03-08 21:07:24,020 INFO [我要你#2]            BasicBook.java:1027 | Loaded image 2 2483x3508 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/我要你.pdf
+2019-03-08 21:07:24,021 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:24,022 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:24,024 INFO [我要你#2]       StepMonitoring.java:96   | BINARY
+2019-03-08 21:07:24,871 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:25,151 INFO [我要你#2]              Picture.java:797  | Stored /sheet#2/BINARY.xml
+2019-03-08 21:07:25,152 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:25,154 INFO [我要你#2]       StepMonitoring.java:96   | SCALE
+2019-03-08 21:07:25,162 INFO [我要你#2]         ScaleBuilder.java:526  | Second combo peak too different (144,144,144), ignored
+2019-03-08 21:07:25,163 INFO [我要你#2]            ScaleStep.java:87   | Scale{line(1,2,3) interline(20,21,21) beam(10)}
+2019-03-08 21:07:25,164 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:25,165 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:25,168 INFO [我要你#2]       StepMonitoring.java:96   | GRID
+2019-03-08 21:07:25,375 INFO [我要你#2]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-03-08 21:07:25,399 INFO [我要你#2]    ClustersRetriever.java:242  | Retrieved line clusters: 12 of size: 5 with interline: (20,21,21)
+2019-03-08 21:07:25,537 INFO [我要你#2]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5, 6] #2[7, 8, 9, 10, 11, 12]
+2019-03-08 21:07:25,551 INFO [我要你#2]        BarsRetriever.java:1396 | System#1
+2019-03-08 21:07:25,551 INFO [我要你#2]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2019-03-08 21:07:25,551 INFO [我要你#2]        BarsRetriever.java:1396 | System#2
+2019-03-08 21:07:25,551 INFO [我要你#2]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:8-9}
+2019-03-08 21:07:25,925 INFO [我要你#2]        SystemManager.java:745  | 6 parts along 2 systems
+2019-03-08 21:07:25,926 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:25,981 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:25,983 INFO [我要你#2]       StepMonitoring.java:96   | HEADERS
+2019-03-08 21:07:26,844 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:27,013 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:27,016 INFO [我要你#2]       StepMonitoring.java:96   | STEM_SEEDS
+2019-03-08 21:07:27,099 INFO [我要你#2]        StemSeedsStep.java:92   | stem(2 max:3)
+2019-03-08 21:07:27,114 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:27,301 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:27,306 INFO [我要你#2]       StepMonitoring.java:96   | BEAMS
+2019-03-08 21:07:33,440 INFO [我要你#2]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-03-08 21:07:33,813 INFO [我要你#2]       BlackHeadSizer.java:251  | Core black head count: 78 blackHead(width:26.9~0.7 height:21.7~0.8)
+2019-03-08 21:07:33,813 INFO [我要你#2]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:90}
+2019-03-08 21:07:33,969 INFO [我要你#2]            BeamsStep.java:89   | BeamDistance{count:58 mean:14.45 stdDev:4.81}
+2019-03-08 21:07:33,971 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:34,053 INFO [我要你#2]              Picture.java:797  | Stored /sheet#2/HEAD_SPOTS.xml
+2019-03-08 21:07:34,540 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:34,542 INFO [我要你#2]       StepMonitoring.java:96   | LEDGERS
+2019-03-08 21:07:34,905 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:35,243 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:35,246 INFO [我要你#2]       StepMonitoring.java:96   | HEADS
+2019-03-08 21:07:50,149 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:50,707 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:50,715 INFO [我要你#2]       StepMonitoring.java:96   | STEMS
+2019-03-08 21:07:51,237 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:51,863 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:51,865 INFO [我要你#2]       StepMonitoring.java:96   | REDUCTION
+2019-03-08 21:07:51,945 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:52,473 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:52,475 INFO [我要你#2]       StepMonitoring.java:96   | CUE_BEAMS
+2019-03-08 21:07:52,486 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:53,003 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:53,005 INFO [我要你#2]       StepMonitoring.java:96   | TEXTS
+2019-03-08 21:07:53,963 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:54,485 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:54,487 INFO [我要你#2]       StepMonitoring.java:96   | MEASURES
+2019-03-08 21:07:54,488 INFO [我要你#2]                 Page.java:260  | 6 raw measures: [3 in system#1, 3 in system#2]
+2019-03-08 21:07:54,490 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:55,017 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:55,020 INFO [我要你#2]       StepMonitoring.java:96   | CHORDS
+2019-03-08 21:07:55,032 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:55,585 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:55,588 INFO [我要你#2]       StepMonitoring.java:96   | CURVES
+2019-03-08 21:07:57,542 INFO [我要你#2]         SlursBuilder.java:157  | Slurs: 7
+2019-03-08 21:07:57,543 INFO [我要你#2]         SlursBuilder.java:771  | LEFT collision SlurInter{#3526(0.509)} & SlurInter{#3883(0.242)} @ HeadInter{#2121(0.502/0.502) s:5 p:-3.00 WHOLE_NOTE}
+2019-03-08 21:07:57,543 INFO [我要你#2]         SlursBuilder.java:771  | RIGHT collision SlurInter{#3526(0.509)} & SlurInter{#3883(0.242)} @ HeadInter{#2083(0.469/0.606) s:5 p:3.00 NOTEHEAD_VOID}
+2019-03-08 21:07:57,544 INFO [我要你#2]         SlursBuilder.java:771  | LEFT collision SlurInter{#3883(0.242)} & SlurInter{#3526(0.509)} @ HeadInter{#2121(0.502/0.502) s:5 p:-3.00 WHOLE_NOTE}
+2019-03-08 21:07:57,544 INFO [我要你#2]         SlursBuilder.java:771  | RIGHT collision SlurInter{#3883(0.242)} & SlurInter{#3526(0.509)} @ HeadInter{#2083(0.469/0.606) s:5 p:3.00 NOTEHEAD_VOID}
+2019-03-08 21:07:57,544 INFO [我要你#2]         SlursBuilder.java:771  | LEFT collision SlurInter{#3582(0.327)} & SlurInter{#3694(0.479)} @ HeadInter{#2499(0.734/0.877) s:8 p:6.00 NOTEHEAD_BLACK}
+2019-03-08 21:07:57,544 INFO [我要你#2]         SlursBuilder.java:771  | LEFT collision SlurInter{#3694(0.479)} & SlurInter{#3582(0.327)} @ HeadInter{#2499(0.734/0.877) s:8 p:6.00 NOTEHEAD_BLACK}
+2019-03-08 21:07:57,548 INFO [我要你#2]      SegmentsBuilder.java:114  | Segments: 11
+2019-03-08 21:07:57,549 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:07:58,304 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:07:58,307 INFO [我要你#2]       StepMonitoring.java:96   | SYMBOLS
+2019-03-08 21:07:59,691 INFO [我要你#2]       SymbolsBuilder.java:341  | Symbol parts shrunk from 8 to 7
+2019-03-08 21:08:00,369 INFO [我要你#2]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:01,202 INFO [我要你#2]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:08:01,205 INFO [我要你#2]       StepMonitoring.java:96   | LINKS
+2019-03-08 21:08:01,206 WARN [我要你#2]   AbstractSystemStep.java:201  | S1 java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at org.audiveris.omr.sig.inter.Inters$3.compare(Inters.java:95)
+	at org.audiveris.omr.sig.inter.Inters$3.compare(Inters.java:90)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:360)
+	at java.util.TimSort.sort(TimSort.java:234)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1462)
+	at java.util.Collections.sort(Collections.java:175)
+	at org.audiveris.omr.sig.SigReducer.detectOverlaps(SigReducer.java:1337)
+	at org.audiveris.omr.sig.SigReducer.reduce(SigReducer.java:1659)
+	at org.audiveris.omr.sig.SigReducer.reduceLinks(SigReducer.java:220)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:110)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:60)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:199)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:182)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:220)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:106)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-08 21:08:01,234 WARN [我要你#2]              Measure.java:611  | No clef found in {Staff id=5 left:197 right:2328} before java.awt.Point[x=1301,y=1229]
+2019-03-08 21:08:01,235 WARN [我要你#2]            BasicStub.java:614  | Error in performing [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE] java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No clef found in {Staff id=5 left:197 right:2328} before java.awt.Point[x=1301,y=1229]
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No clef found in {Staff id=5 left:197 right:2328} before java.awt.Point[x=1301,y=1229]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at org.audiveris.omr.sheet.BasicStub.doOneStep(BasicStub.java:887)
+	at org.audiveris.omr.sheet.BasicStub.reachStep(BasicStub.java:601)
+	at org.audiveris.omr.sheet.BasicBook.reachBookStep(BasicBook.java:1179)
+	at org.audiveris.omr.sheet.BasicBook.transcribe(BasicBook.java:1552)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:628)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at com.audiveris.wrapper.wrapper.TranscribeController.transcribe(TranscribeController.kt:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: No clef found in {Staff id=5 left:197 right:2328} before java.awt.Point[x=1301,y=1229]
+	at org.audiveris.omr.sheet.rhythm.Measure.getClefBefore(Measure.java:612)
+	at org.audiveris.omr.sig.inter.AbstractNoteInter.getStep(AbstractNoteInter.java:245)
+	at org.audiveris.omr.sig.inter.HeadInter.haveSameHeight(HeadInter.java:411)
+	at org.audiveris.omr.sig.inter.SlurInter.checkStaffTie(SlurInter.java:409)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doEpilog(LinksStep.java:197)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doEpilog(LinksStep.java:60)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:109)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 common frames omitted
+2019-03-08 21:08:01,236 INFO [我要你#3]       StepMonitoring.java:96   | LOAD
+2019-03-08 21:08:01,264 INFO [我要你#3]            BasicBook.java:1027 | Loaded image 3 2483x3508 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/我要你.pdf
+2019-03-08 21:08:01,265 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:01,266 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:01,268 INFO [我要你#3]       StepMonitoring.java:96   | BINARY
+2019-03-08 21:08:01,980 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:02,262 INFO [我要你#3]              Picture.java:797  | Stored /sheet#3/BINARY.xml
+2019-03-08 21:08:02,263 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:02,266 INFO [我要你#3]       StepMonitoring.java:96   | SCALE
+2019-03-08 21:08:02,272 INFO [我要你#3]         ScaleBuilder.java:526  | Second combo peak too different (124,124,124), ignored
+2019-03-08 21:08:02,273 INFO [我要你#3]            ScaleStep.java:87   | Scale{line(2,2,2) interline(20,21,21) beam(10)}
+2019-03-08 21:08:02,274 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:02,274 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:02,277 INFO [我要你#3]       StepMonitoring.java:96   | GRID
+2019-03-08 21:08:02,511 INFO [我要你#3]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-03-08 21:08:02,522 INFO [我要你#3]    ClustersRetriever.java:242  | Retrieved line clusters: 12 of size: 5 with interline: (20,21,21)
+2019-03-08 21:08:02,586 INFO [我要你#3]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5, 6] #2[7, 8, 9, 10, 11, 12]
+2019-03-08 21:08:02,597 INFO [我要你#3]        BarsRetriever.java:1396 | System#1
+2019-03-08 21:08:02,597 INFO [我要你#3]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2019-03-08 21:08:02,598 INFO [我要你#3]        BarsRetriever.java:1396 | System#2
+2019-03-08 21:08:02,598 INFO [我要你#3]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:8-9}
+2019-03-08 21:08:02,934 INFO [我要你#3]        SystemManager.java:745  | 6 parts along 2 systems
+2019-03-08 21:08:02,938 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:02,991 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:02,994 INFO [我要你#3]       StepMonitoring.java:96   | HEADERS
+2019-03-08 21:08:03,708 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:03,850 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:03,853 INFO [我要你#3]       StepMonitoring.java:96   | STEM_SEEDS
+2019-03-08 21:08:03,933 INFO [我要你#3]        StemSeedsStep.java:92   | stem(2 max:3)
+2019-03-08 21:08:03,944 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:04,102 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:04,105 INFO [我要你#3]       StepMonitoring.java:96   | BEAMS
+2019-03-08 21:08:09,754 INFO [我要你#3]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-03-08 21:08:10,055 INFO [我要你#3]       BlackHeadSizer.java:251  | Core black head count: 66 blackHead(width:26.7~0.7 height:21.8~0.9)
+2019-03-08 21:08:10,057 INFO [我要你#3]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:89}
+2019-03-08 21:08:10,176 INFO [我要你#3]            BeamsStep.java:89   | BeamDistance{count:17 mean:9.32 stdDev:7.56}
+2019-03-08 21:08:10,178 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:10,226 INFO [我要你#3]              Picture.java:797  | Stored /sheet#3/HEAD_SPOTS.xml
+2019-03-08 21:08:10,592 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:10,596 INFO [我要你#3]       StepMonitoring.java:96   | LEDGERS
+2019-03-08 21:08:10,864 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:11,243 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:11,246 INFO [我要你#3]       StepMonitoring.java:96   | HEADS
+2019-03-08 21:08:31,022 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:31,526 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:31,528 INFO [我要你#3]       StepMonitoring.java:96   | STEMS
+2019-03-08 21:08:32,537 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:33,105 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:33,108 INFO [我要你#3]       StepMonitoring.java:96   | REDUCTION
+2019-03-08 21:08:33,168 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:33,638 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:33,641 INFO [我要你#3]       StepMonitoring.java:96   | CUE_BEAMS
+2019-03-08 21:08:33,644 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:34,135 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:34,139 INFO [我要你#3]       StepMonitoring.java:96   | TEXTS
+2019-03-08 21:08:35,720 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:36,192 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:36,196 INFO [我要你#3]       StepMonitoring.java:96   | MEASURES
+2019-03-08 21:08:36,197 INFO [我要你#3]                 Page.java:260  | 6 raw measures: [3 in system#1, 3 in system#2]
+2019-03-08 21:08:36,199 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:36,691 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:36,695 INFO [我要你#3]       StepMonitoring.java:96   | CHORDS
+2019-03-08 21:08:36,704 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:37,222 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:37,225 INFO [我要你#3]       StepMonitoring.java:96   | CURVES
+2019-03-08 21:08:39,278 INFO [我要你#3]         SlursBuilder.java:157  | Slurs: 3
+2019-03-08 21:08:39,278 INFO [我要你#3]         SlursBuilder.java:771  | LEFT collision SlurInter{#3274(0.330)} & SlurInter{#3783(0.400)} @ HeadInter{#2114(0.740/0.807) s:6 p:-1.00 NOTEHEAD_BLACK}
+2019-03-08 21:08:39,278 INFO [我要你#3]         SlursBuilder.java:771  | RIGHT collision SlurInter{#3274(0.330)} & SlurInter{#3783(0.400)} @ HeadInter{#2059(0.673/0.782) s:6 p:1.00 NOTEHEAD_BLACK}
+2019-03-08 21:08:39,279 INFO [我要你#3]         SlursBuilder.java:771  | LEFT collision SlurInter{#3783(0.400)} & SlurInter{#3274(0.330)} @ HeadInter{#2114(0.740/0.807) s:6 p:-1.00 NOTEHEAD_BLACK}
+2019-03-08 21:08:39,279 INFO [我要你#3]         SlursBuilder.java:771  | RIGHT collision SlurInter{#3783(0.400)} & SlurInter{#3274(0.330)} @ HeadInter{#2059(0.673/0.782) s:6 p:1.00 NOTEHEAD_BLACK}
+2019-03-08 21:08:39,283 INFO [我要你#3]      SegmentsBuilder.java:114  | Segments: 10
+2019-03-08 21:08:39,284 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:39,906 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:39,911 INFO [我要你#3]       StepMonitoring.java:96   | SYMBOLS
+2019-03-08 21:08:40,796 INFO [我要你#3]       SymbolsBuilder.java:341  | Symbol parts shrunk from 8 to 7
+2019-03-08 21:08:41,146 INFO [我要你#3]       SymbolsBuilder.java:341  | Symbol parts shrunk from 10 to 7
+2019-03-08 21:08:41,921 INFO [我要你#3]       SymbolsBuilder.java:341  | Symbol parts shrunk from 11 to 7
+2019-03-08 21:08:42,789 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:44,067 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:44,074 INFO [我要你#3]       StepMonitoring.java:96   | LINKS
+2019-03-08 21:08:44,075 INFO [我要你#3]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#2859(0.707) s:1 40 Direction} 74
+2019-03-08 21:08:44,075 INFO [我要你#3]       LyricItemInter.java:301  | No head-chord for LyricItemInter{#2868(0.680) s:6 "77" Syllable}
+2019-03-08 21:08:44,106 INFO [我要你#3]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#2878(0.680) s:7 41 Direction} 77
+2019-03-08 21:08:44,134 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:46,183 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:46,190 INFO [我要你#3]       StepMonitoring.java:96   | RHYTHMS
+2019-03-08 21:08:46,258 INFO [我要你#3]         SlotsBuilder.java:439  | Stack#3 endless loop detected
+2019-03-08 21:08:46,278 INFO [我要你#3]         SlotsBuilder.java:439  | Stack#5 endless loop detected
+2019-03-08 21:08:46,297 INFO [我要你#3]           PageRhythm.java:380  | Range{1-6 dur:1} guess:1
+2019-03-08 21:08:46,298 INFO [我要你#3]           PageRhythm.java:237  | S1 Range{1-6 dur:1} should update to 1-based time sig?
+2019-03-08 21:08:46,316 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P1} Voice #1 too long 3/16
+2019-03-08 21:08:46,316 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P3} Voice #1 too long 3/16
+2019-03-08 21:08:46,316 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P4} Voice #1 too long 3/16
+2019-03-08 21:08:46,317 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P5} Voice #1 too long 3/16
+2019-03-08 21:08:46,317 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P6} Voice #1 too long 1/4
+2019-03-08 21:08:46,317 INFO [我要你#3]           StackTuner.java:92   | S1 MeasureStack#1 no correct rhythm
+2019-03-08 21:08:46,332 INFO [我要你#3]                Voice.java:264  | S1 {Measure#2P5} Voice #2 too long 3/8
+2019-03-08 21:08:46,332 INFO [我要你#3]           StackTuner.java:92   | S1 MeasureStack#2 no correct rhythm
+2019-03-08 21:08:46,342 INFO [我要你#3]         SlotsBuilder.java:439  | Stack#3 endless loop detected
+2019-03-08 21:08:46,345 INFO [我要你#3]                Voice.java:264  | S1 {Measure#3P6} Voice #1 too long 1/4
+2019-03-08 21:08:46,346 INFO [我要你#3]           StackTuner.java:92   | S1 MeasureStack#3 no correct rhythm
+2019-03-08 21:08:46,350 INFO [我要你#3]                Voice.java:264  | S2 {Measure#4P1} Voice #1 too long 1/16
+2019-03-08 21:08:46,350 INFO [我要你#3]                Voice.java:264  | S2 {Measure#4P4} Voice #1 too long 1/16
+2019-03-08 21:08:46,350 INFO [我要你#3]                Voice.java:264  | S2 {Measure#4P6} Voice #1 too long 1/8
+2019-03-08 21:08:46,350 INFO [我要你#3]           StackTuner.java:92   | S2 MeasureStack#4 no correct rhythm
+2019-03-08 21:08:46,359 INFO [我要你#3]         SlotsBuilder.java:439  | Stack#5 endless loop detected
+2019-03-08 21:08:46,360 INFO [我要你#3]                Voice.java:264  | S2 {Measure#5P1} Voice #2 too long 1/4
+2019-03-08 21:08:46,360 INFO [我要你#3]           StackTuner.java:92   | S2 MeasureStack#5 no correct rhythm
+2019-03-08 21:08:46,375 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:47,626 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:47,633 INFO [我要你#3]       StepMonitoring.java:96   | PAGE
+2019-03-08 21:08:47,638 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P1} Voice #1 too long 3/16
+2019-03-08 21:08:47,638 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P3} Voice #1 too long 3/16
+2019-03-08 21:08:47,639 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P4} Voice #1 too long 3/16
+2019-03-08 21:08:47,639 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P5} Voice #1 too long 3/16
+2019-03-08 21:08:47,639 INFO [我要你#3]                Voice.java:264  | S1 {Measure#1P6} Voice #1 too long 1/4
+2019-03-08 21:08:47,639 INFO [我要你#3]                Voice.java:264  | S1 {Measure#2P5} Voice #2 too long 3/8
+2019-03-08 21:08:47,640 INFO [我要你#3]                Voice.java:264  | S1 {Measure#3P6} Voice #1 too long 1/4
+2019-03-08 21:08:47,640 INFO [我要你#3]                Voice.java:264  | S2 {Measure#4P1} Voice #1 too long 1/16
+2019-03-08 21:08:47,640 INFO [我要你#3]                Voice.java:264  | S2 {Measure#4P4} Voice #1 too long 1/16
+2019-03-08 21:08:47,640 INFO [我要你#3]                Voice.java:264  | S2 {Measure#4P6} Voice #1 too long 1/8
+2019-03-08 21:08:47,640 INFO [我要你#3]                Voice.java:264  | S2 {Measure#5P1} Voice #2 too long 1/4
+2019-03-08 21:08:47,642 INFO [我要你#3]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:48,627 INFO [我要你#3]           BasicSheet.java:1038 | Stored /sheet#3/sheet#3.xml
+2019-03-08 21:08:48,632 INFO [我要你#3]            BasicStub.java:758  | Sheet{我要你#3} disposed
+2019-03-08 21:08:48,916 INFO [我要你#4]       StepMonitoring.java:96   | LOAD
+2019-03-08 21:08:48,949 INFO [我要你#4]            BasicBook.java:1027 | Loaded image 4 2483x3508 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/我要你.pdf
+2019-03-08 21:08:48,951 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:48,952 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:08:48,955 INFO [我要你#4]       StepMonitoring.java:96   | BINARY
+2019-03-08 21:08:49,748 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:50,042 INFO [我要你#4]              Picture.java:797  | Stored /sheet#4/BINARY.xml
+2019-03-08 21:08:50,043 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:08:50,046 INFO [我要你#4]       StepMonitoring.java:96   | SCALE
+2019-03-08 21:08:50,053 INFO [我要你#4]         ScaleBuilder.java:526  | Second combo peak too different (123,123,123), ignored
+2019-03-08 21:08:50,053 INFO [我要你#4]            ScaleStep.java:87   | Scale{line(2,2,3) interline(20,21,21) beam(10)}
+2019-03-08 21:08:50,054 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:50,055 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:08:50,058 INFO [我要你#4]       StepMonitoring.java:96   | GRID
+2019-03-08 21:08:50,266 INFO [我要你#4]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-03-08 21:08:50,284 INFO [我要你#4]    ClustersRetriever.java:242  | Retrieved line clusters: 12 of size: 5 with interline: (20,21,21)
+2019-03-08 21:08:50,435 INFO [我要你#4]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5, 6] #2[7, 8, 9, 10, 11, 12]
+2019-03-08 21:08:50,449 INFO [我要你#4]        BarsRetriever.java:1396 | System#1
+2019-03-08 21:08:50,449 INFO [我要你#4]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2019-03-08 21:08:50,450 INFO [我要你#4]        BarsRetriever.java:1396 | System#2
+2019-03-08 21:08:50,450 INFO [我要你#4]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:8-9}
+2019-03-08 21:08:50,832 INFO [我要你#4]        SystemManager.java:745  | 6 parts along 2 systems
+2019-03-08 21:08:50,834 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:50,888 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:08:50,892 INFO [我要你#4]       StepMonitoring.java:96   | HEADERS
+2019-03-08 21:08:51,751 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:51,925 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:08:51,930 INFO [我要你#4]       StepMonitoring.java:96   | STEM_SEEDS
+2019-03-08 21:08:52,025 INFO [我要你#4]        StemSeedsStep.java:92   | stem(2 max:3)
+2019-03-08 21:08:52,037 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:52,221 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:08:52,225 INFO [我要你#4]       StepMonitoring.java:96   | BEAMS
+2019-03-08 21:08:58,198 INFO [我要你#4]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-03-08 21:08:58,652 INFO [我要你#4]       BlackHeadSizer.java:251  | Core black head count: 82 blackHead(width:26.9~0.7 height:21.8~0.8)
+2019-03-08 21:08:58,652 INFO [我要你#4]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:90}
+2019-03-08 21:08:58,866 INFO [我要你#4]            BeamsStep.java:89   | BeamDistance{count:56 mean:14.84 stdDev:4.15}
+2019-03-08 21:08:58,875 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:08:59,129 INFO [我要你#4]              Picture.java:797  | Stored /sheet#4/HEAD_SPOTS.xml
+2019-03-08 21:09:00,140 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:00,148 INFO [我要你#4]       StepMonitoring.java:96   | LEDGERS
+2019-03-08 21:09:00,503 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:01,011 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:01,014 INFO [我要你#4]       StepMonitoring.java:96   | HEADS
+2019-03-08 21:09:16,150 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:16,708 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:16,719 INFO [我要你#4]       StepMonitoring.java:96   | STEMS
+2019-03-08 21:09:17,260 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:17,909 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:17,912 INFO [我要你#4]       StepMonitoring.java:96   | REDUCTION
+2019-03-08 21:09:17,973 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:18,565 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:18,570 INFO [我要你#4]       StepMonitoring.java:96   | CUE_BEAMS
+2019-03-08 21:09:18,572 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:19,208 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:19,211 INFO [我要你#4]       StepMonitoring.java:96   | TEXTS
+2019-03-08 21:09:20,739 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:21,211 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:21,215 INFO [我要你#4]       StepMonitoring.java:96   | MEASURES
+2019-03-08 21:09:21,216 INFO [我要你#4]                 Page.java:260  | 6 raw measures: [3 in system#1, 3 in system#2]
+2019-03-08 21:09:21,218 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:21,719 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:21,723 INFO [我要你#4]       StepMonitoring.java:96   | CHORDS
+2019-03-08 21:09:21,733 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:22,253 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:22,256 INFO [我要你#4]       StepMonitoring.java:96   | CURVES
+2019-03-08 21:09:24,035 INFO [我要你#4]         SlursBuilder.java:157  | Slurs: 5
+2019-03-08 21:09:24,035 INFO [我要你#4]         SlursBuilder.java:771  | RIGHT collision SlurInter{#3693(0.612)} & SlurInter{#3963(0.570)} @ HeadInter{#2478(0.584/0.584) s:7 p:-3.00 WHOLE_NOTE}
+2019-03-08 21:09:24,035 INFO [我要你#4]         SlursBuilder.java:771  | RIGHT collision SlurInter{#3963(0.570)} & SlurInter{#3693(0.612)} @ HeadInter{#2478(0.584/0.584) s:7 p:-3.00 WHOLE_NOTE}
+2019-03-08 21:09:24,039 INFO [我要你#4]      SegmentsBuilder.java:114  | Segments: 11
+2019-03-08 21:09:24,041 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:24,742 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:24,745 INFO [我要你#4]       StepMonitoring.java:96   | SYMBOLS
+2019-03-08 21:09:25,734 INFO [我要你#4]       SymbolsBuilder.java:341  | Symbol parts shrunk from 13 to 7
+2019-03-08 21:09:26,312 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:27,266 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:27,270 INFO [我要你#4]       StepMonitoring.java:96   | LINKS
+2019-03-08 21:09:27,271 INFO [我要你#4]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#3380(0.568) s:1 40 Direction} 20
+2019-03-08 21:09:27,315 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:28,278 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:28,283 INFO [我要你#4]       StepMonitoring.java:96   | RHYTHMS
+2019-03-08 21:09:28,291 INFO [我要你#4]         SlotsBuilder.java:439  | Stack#2 endless loop detected
+2019-03-08 21:09:28,319 INFO [我要你#4]           PageRhythm.java:380  | Range{1-6 dur:1} guess:1
+2019-03-08 21:09:28,319 INFO [我要你#4]           PageRhythm.java:237  | S1 Range{1-6 dur:1} should update to 1-based time sig?
+2019-03-08 21:09:28,326 INFO [我要你#4]         SlotsBuilder.java:439  | Stack#2 endless loop detected
+2019-03-08 21:09:28,346 INFO [我要你#4]         SlotsBuilder.java:432  | S2 MeasureStack#5 Slot{#3 xOffset=120 timeOffset=3/16 incomings=[#3584] SUSPICIOUS}
+2019-03-08 21:09:28,347 INFO [我要你#4]         SlotsBuilder.java:439  | Stack#5 endless loop detected
+2019-03-08 21:09:28,356 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P1} Voice #1 too long 3/16
+2019-03-08 21:09:28,356 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P2} Voice #1 too long 3/16
+2019-03-08 21:09:28,357 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P3} Voice #1 too long 3/16
+2019-03-08 21:09:28,357 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P4} Voice #1 too long 3/16
+2019-03-08 21:09:28,357 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P5} Voice #1 too long 3/16
+2019-03-08 21:09:28,357 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P6} Voice #1 too long 3/16
+2019-03-08 21:09:28,357 INFO [我要你#4]           StackTuner.java:92   | S2 MeasureStack#6 no correct rhythm
+2019-03-08 21:09:28,358 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:29,336 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:29,340 INFO [我要你#4]       StepMonitoring.java:96   | PAGE
+2019-03-08 21:09:29,341 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P1} Voice #1 too long 3/16
+2019-03-08 21:09:29,342 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P2} Voice #1 too long 3/16
+2019-03-08 21:09:29,342 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P3} Voice #1 too long 3/16
+2019-03-08 21:09:29,342 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P4} Voice #1 too long 3/16
+2019-03-08 21:09:29,342 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P5} Voice #1 too long 3/16
+2019-03-08 21:09:29,342 INFO [我要你#4]                Voice.java:264  | S2 {Measure#6P6} Voice #1 too long 3/16
+2019-03-08 21:09:29,343 INFO [我要你#4]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:30,314 INFO [我要你#4]           BasicSheet.java:1038 | Stored /sheet#4/sheet#4.xml
+2019-03-08 21:09:30,318 INFO [我要你#4]            BasicStub.java:758  | Sheet{我要你#4} disposed
+2019-03-08 21:09:30,515 INFO [我要你#5]       StepMonitoring.java:96   | LOAD
+2019-03-08 21:09:30,544 INFO [我要你#5]            BasicBook.java:1027 | Loaded image 5 2483x3508 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/我要你.pdf
+2019-03-08 21:09:30,546 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:30,546 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:30,550 INFO [我要你#5]       StepMonitoring.java:96   | BINARY
+2019-03-08 21:09:31,320 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:31,594 INFO [我要你#5]              Picture.java:797  | Stored /sheet#5/BINARY.xml
+2019-03-08 21:09:31,595 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:31,599 INFO [我要你#5]       StepMonitoring.java:96   | SCALE
+2019-03-08 21:09:31,606 INFO [我要你#5]         ScaleBuilder.java:526  | Second combo peak too different (124,124,124), ignored
+2019-03-08 21:09:31,606 INFO [我要你#5]            ScaleStep.java:87   | Scale{line(2,2,3) interline(20,21,21) beam(10)}
+2019-03-08 21:09:31,607 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:31,608 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:31,612 INFO [我要你#5]       StepMonitoring.java:96   | GRID
+2019-03-08 21:09:31,806 INFO [我要你#5]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-03-08 21:09:31,816 INFO [我要你#5]    ClustersRetriever.java:242  | Retrieved line clusters: 12 of size: 5 with interline: (20,21,21)
+2019-03-08 21:09:31,936 INFO [我要你#5]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5, 6] #2[7, 8, 9, 10, 11, 12]
+2019-03-08 21:09:31,950 INFO [我要你#5]        BarsRetriever.java:1396 | System#1
+2019-03-08 21:09:31,951 INFO [我要你#5]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2019-03-08 21:09:31,951 INFO [我要你#5]        BarsRetriever.java:1396 | System#2
+2019-03-08 21:09:31,951 INFO [我要你#5]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:8-9}
+2019-03-08 21:09:32,270 INFO [我要你#5]        SystemManager.java:745  | 6 parts along 2 systems
+2019-03-08 21:09:32,271 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:32,326 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:32,331 INFO [我要你#5]       StepMonitoring.java:96   | HEADERS
+2019-03-08 21:09:33,169 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:33,338 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:33,343 INFO [我要你#5]       StepMonitoring.java:96   | STEM_SEEDS
+2019-03-08 21:09:33,429 INFO [我要你#5]        StemSeedsStep.java:92   | stem(2 max:3)
+2019-03-08 21:09:33,441 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:33,630 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:33,635 INFO [我要你#5]       StepMonitoring.java:96   | BEAMS
+2019-03-08 21:09:39,337 INFO [我要你#5]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-03-08 21:09:39,593 INFO [我要你#5]       BlackHeadSizer.java:251  | Core black head count: 56 blackHead(width:26.6~0.6 height:21.8~0.9)
+2019-03-08 21:09:39,594 INFO [我要你#5]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:89}
+2019-03-08 21:09:39,694 INFO [我要你#5]            BeamsStep.java:89   | BeamDistance{count:20 mean:5.49 stdDev:7.58}
+2019-03-08 21:09:39,696 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:39,742 INFO [我要你#5]              Picture.java:797  | Stored /sheet#5/HEAD_SPOTS.xml
+2019-03-08 21:09:40,110 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:40,114 INFO [我要你#5]       StepMonitoring.java:96   | LEDGERS
+2019-03-08 21:09:40,424 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:40,807 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:40,812 INFO [我要你#5]       StepMonitoring.java:96   | HEADS
+2019-03-08 21:09:55,262 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:55,725 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:55,739 INFO [我要你#5]       StepMonitoring.java:96   | STEMS
+2019-03-08 21:09:56,274 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:56,800 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:56,804 INFO [我要你#5]       StepMonitoring.java:96   | REDUCTION
+2019-03-08 21:09:56,840 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:57,303 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:57,308 INFO [我要你#5]       StepMonitoring.java:96   | CUE_BEAMS
+2019-03-08 21:09:57,309 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:57,780 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:57,785 INFO [我要你#5]       StepMonitoring.java:96   | TEXTS
+2019-03-08 21:09:58,727 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:59,215 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:59,219 INFO [我要你#5]       StepMonitoring.java:96   | MEASURES
+2019-03-08 21:09:59,220 INFO [我要你#5]                 Page.java:260  | 7 raw measures: [3 in system#1, 4 in system#2]
+2019-03-08 21:09:59,221 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:09:59,707 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:09:59,711 INFO [我要你#5]       StepMonitoring.java:96   | CHORDS
+2019-03-08 21:09:59,719 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:00,213 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:10:00,217 INFO [我要你#5]       StepMonitoring.java:96   | CURVES
+2019-03-08 21:10:02,183 INFO [我要你#5]         SlursBuilder.java:157  | Slurs: 6
+2019-03-08 21:10:02,188 INFO [我要你#5]      SegmentsBuilder.java:114  | Segments: 13
+2019-03-08 21:10:02,189 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:02,807 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:10:02,811 INFO [我要你#5]       StepMonitoring.java:96   | SYMBOLS
+2019-03-08 21:10:03,580 INFO [我要你#5]       SymbolsBuilder.java:341  | Symbol parts shrunk from 8 to 7
+2019-03-08 21:10:04,241 INFO [我要你#5]       SymbolsBuilder.java:341  | Symbol parts shrunk from 12 to 7
+2019-03-08 21:10:05,196 INFO [我要你#5]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:06,253 INFO [我要你#5]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:10:06,259 INFO [我要你#5]       StepMonitoring.java:96   | LINKS
+2019-03-08 21:10:06,259 INFO [我要你#5]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#2793(0.625) s:1 40 Direction} 26
+2019-03-08 21:10:06,261 WARN [我要你#5]   AbstractSystemStep.java:201  | S1 java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at org.audiveris.omr.sig.inter.Inters$3.compare(Inters.java:95)
+	at org.audiveris.omr.sig.inter.Inters$3.compare(Inters.java:90)
+	at java.util.TimSort.binarySort(TimSort.java:296)
+	at java.util.TimSort.sort(TimSort.java:239)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1462)
+	at java.util.Collections.sort(Collections.java:175)
+	at org.audiveris.omr.sig.SigReducer.detectOverlaps(SigReducer.java:1337)
+	at org.audiveris.omr.sig.SigReducer.reduce(SigReducer.java:1659)
+	at org.audiveris.omr.sig.SigReducer.reduceLinks(SigReducer.java:220)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:110)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:60)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:199)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:182)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:220)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:106)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-08 21:10:06,273 WARN [我要你#5]              Measure.java:611  | No clef found in {Staff id=6 left:197 right:2328} before java.awt.Point[x=982,y=1483]
+2019-03-08 21:10:06,274 WARN [我要你#5]            BasicStub.java:614  | Error in performing [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE] java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No clef found in {Staff id=6 left:197 right:2328} before java.awt.Point[x=982,y=1483]
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: No clef found in {Staff id=6 left:197 right:2328} before java.awt.Point[x=982,y=1483]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at org.audiveris.omr.sheet.BasicStub.doOneStep(BasicStub.java:887)
+	at org.audiveris.omr.sheet.BasicStub.reachStep(BasicStub.java:601)
+	at org.audiveris.omr.sheet.BasicBook.reachBookStep(BasicBook.java:1179)
+	at org.audiveris.omr.sheet.BasicBook.transcribe(BasicBook.java:1552)
+	at org.audiveris.omr.sheet.BasicBook.export(BasicBook.java:628)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:791)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:350)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:316)
+	at org.audiveris.omr.Main.main(Main.java:155)
+	at com.audiveris.wrapper.wrapper.TranscribeController.transcribe(TranscribeController.kt:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: No clef found in {Staff id=6 left:197 right:2328} before java.awt.Point[x=982,y=1483]
+	at org.audiveris.omr.sheet.rhythm.Measure.getClefBefore(Measure.java:612)
+	at org.audiveris.omr.sig.inter.AbstractNoteInter.getStep(AbstractNoteInter.java:245)
+	at org.audiveris.omr.sig.inter.HeadInter.haveSameHeight(HeadInter.java:411)
+	at org.audiveris.omr.sig.inter.SlurInter.checkStaffTie(SlurInter.java:409)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doEpilog(LinksStep.java:197)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doEpilog(LinksStep.java:60)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:109)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 common frames omitted
+2019-03-08 21:10:06,274 INFO [我要你#6]       StepMonitoring.java:96   | LOAD
+2019-03-08 21:10:06,295 INFO [我要你#6]            BasicBook.java:1027 | Loaded image 6 2483x3508 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/我要你.pdf
+2019-03-08 21:10:06,296 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:06,297 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:06,302 INFO [我要你#6]       StepMonitoring.java:96   | BINARY
+2019-03-08 21:10:07,010 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:07,270 INFO [我要你#6]              Picture.java:797  | Stored /sheet#6/BINARY.xml
+2019-03-08 21:10:07,271 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:07,275 INFO [我要你#6]       StepMonitoring.java:96   | SCALE
+2019-03-08 21:10:07,281 INFO [我要你#6]         ScaleBuilder.java:526  | Second combo peak too different (124,124,124), ignored
+2019-03-08 21:10:07,282 INFO [我要你#6]            ScaleStep.java:87   | Scale{line(2,2,2) interline(20,21,21) beam(10)}
+2019-03-08 21:10:07,283 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:07,284 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:07,288 INFO [我要你#6]       StepMonitoring.java:96   | GRID
+2019-03-08 21:10:07,446 INFO [我要你#6]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-03-08 21:10:07,455 INFO [我要你#6]    ClustersRetriever.java:242  | Retrieved line clusters: 12 of size: 5 with interline: (20,21,21)
+2019-03-08 21:10:07,503 INFO [我要你#6]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5, 6] #2[7, 8, 9, 10, 11, 12]
+2019-03-08 21:10:07,510 INFO [我要你#6]        BarsRetriever.java:1396 | System#1
+2019-03-08 21:10:07,511 INFO [我要你#6]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2019-03-08 21:10:07,511 INFO [我要你#6]        BarsRetriever.java:1396 | System#2
+2019-03-08 21:10:07,511 INFO [我要你#6]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:8-9}
+2019-03-08 21:10:07,723 INFO [我要你#6]        SystemManager.java:745  | 6 parts along 2 systems
+2019-03-08 21:10:07,725 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:07,776 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:07,781 INFO [我要你#6]       StepMonitoring.java:96   | HEADERS
+2019-03-08 21:10:08,490 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:08,631 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:08,637 INFO [我要你#6]       StepMonitoring.java:96   | STEM_SEEDS
+2019-03-08 21:10:08,717 INFO [我要你#6]        StemSeedsStep.java:92   | stem(2 max:3)
+2019-03-08 21:10:08,724 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:08,875 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:08,879 INFO [我要你#6]       StepMonitoring.java:96   | BEAMS
+2019-03-08 21:10:14,584 INFO [我要你#6]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-03-08 21:10:14,766 INFO [我要你#6]       BlackHeadSizer.java:251  | Core black head count: 40 blackHead(width:27.0~0.7 height:21.9~0.9)
+2019-03-08 21:10:14,766 INFO [我要你#6]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:90}
+2019-03-08 21:10:14,855 INFO [我要你#6]            BeamsStep.java:89   | BeamDistance{count:22 mean:4.55 stdDev:6.89}
+2019-03-08 21:10:14,857 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:14,895 INFO [我要你#6]              Picture.java:797  | Stored /sheet#6/HEAD_SPOTS.xml
+2019-03-08 21:10:15,189 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:15,195 INFO [我要你#6]       StepMonitoring.java:96   | LEDGERS
+2019-03-08 21:10:15,397 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:15,708 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:15,713 INFO [我要你#6]       StepMonitoring.java:96   | HEADS
+2019-03-08 21:10:30,150 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:30,508 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:30,513 INFO [我要你#6]       StepMonitoring.java:96   | STEMS
+2019-03-08 21:10:30,746 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:31,149 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:31,154 INFO [我要你#6]       StepMonitoring.java:96   | REDUCTION
+2019-03-08 21:10:31,186 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:31,541 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:31,547 INFO [我要你#6]       StepMonitoring.java:96   | CUE_BEAMS
+2019-03-08 21:10:31,549 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:31,904 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:31,909 INFO [我要你#6]       StepMonitoring.java:96   | TEXTS
+2019-03-08 21:10:32,715 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:33,077 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:33,081 INFO [我要你#6]       StepMonitoring.java:96   | MEASURES
+2019-03-08 21:10:33,082 INFO [我要你#6]                 Page.java:260  | 6 raw measures: [3 in system#1, 3 in system#2]
+2019-03-08 21:10:33,084 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:33,450 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:33,455 INFO [我要你#6]       StepMonitoring.java:96   | CHORDS
+2019-03-08 21:10:33,461 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:33,842 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:33,846 INFO [我要你#6]       StepMonitoring.java:96   | CURVES
+2019-03-08 21:10:35,640 INFO [我要你#6]         SlursBuilder.java:157  | Slurs: 0
+2019-03-08 21:10:35,644 INFO [我要你#6]      SegmentsBuilder.java:114  | Segments: 10
+2019-03-08 21:10:35,646 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:36,119 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:36,125 INFO [我要你#6]       StepMonitoring.java:96   | SYMBOLS
+2019-03-08 21:10:37,151 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:37,800 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:37,805 INFO [我要你#6]       StepMonitoring.java:96   | LINKS
+2019-03-08 21:10:37,805 INFO [我要你#6]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#2151(0.633) s:1 BS-48 Direction} 33
+2019-03-08 21:10:37,806 INFO [我要你#6]       LyricItemInter.java:301  | No head-chord for LyricItemInter{#2154(0.649) s:6 "36" Syllable}
+2019-03-08 21:10:37,814 INFO [我要你#6]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#2161(0.649) s:7 BS-46 Direction} 36
+2019-03-08 21:10:37,822 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:38,474 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:38,480 INFO [我要你#6]       StepMonitoring.java:96   | RHYTHMS
+2019-03-08 21:10:38,493 INFO [我要你#6]           PageRhythm.java:380  | Range{1-6 dur:3/4} guess:3/4
+2019-03-08 21:10:38,493 INFO [我要你#6]           PageRhythm.java:237  | S1 Range{1-6 dur:3/4} should update to 3/4-based time sig?
+2019-03-08 21:10:38,496 INFO [我要你#6]                Voice.java:264  | S1 {Measure#1P1} Voice #1 too long 7/16
+2019-03-08 21:10:38,496 INFO [我要你#6]                Voice.java:264  | S1 {Measure#1P4} Voice #1 too long 7/16
+2019-03-08 21:10:38,496 INFO [我要你#6]                Voice.java:264  | S1 {Measure#1P6} Voice #1 too long 11/8
+2019-03-08 21:10:38,496 INFO [我要你#6]           StackTuner.java:92   | S1 MeasureStack#1 no correct rhythm
+2019-03-08 21:10:38,498 INFO [我要你#6]         SlotsBuilder.java:432  | S1 MeasureStack#2 Slot{#6 xOffset=256 timeOffset=5/4 incomings=[#2254] SUSPICIOUS}
+2019-03-08 21:10:38,499 INFO [我要你#6]                Voice.java:264  | S1 {Measure#2P1} Voice #1 too long 17/8
+2019-03-08 21:10:38,499 INFO [我要你#6]                Voice.java:264  | S1 {Measure#2P4} Voice #1 too long 17/8
+2019-03-08 21:10:38,499 INFO [我要你#6]                Voice.java:264  | S1 {Measure#2P5} Voice #1 too long 3/2
+2019-03-08 21:10:38,499 INFO [我要你#6]                Voice.java:264  | S1 {Measure#2P6} Voice #1 too long 7/4
+2019-03-08 21:10:38,499 INFO [我要你#6]           StackTuner.java:92   | S1 MeasureStack#2 no correct rhythm
+2019-03-08 21:10:38,501 INFO [我要你#6]         SlotsBuilder.java:432  | S1 MeasureStack#3 Slot{#4 xOffset=157 timeOffset=1/4 incomings=[#2264] SUSPICIOUS}
+2019-03-08 21:10:38,503 INFO [我要你#6]                Voice.java:264  | S1 {Measure#3P1} Voice #1 too long 1
+2019-03-08 21:10:38,503 INFO [我要你#6]                Voice.java:264  | S1 {Measure#3P4} Voice #1 too long 1
+2019-03-08 21:10:38,503 INFO [我要你#6]                Voice.java:264  | S1 {Measure#3P6} Voice #1 too long 17/16
+2019-03-08 21:10:38,503 INFO [我要你#6]                Voice.java:264  | S1 {Measure#3P6} Voice #2 too long 3/4
+2019-03-08 21:10:38,503 INFO [我要你#6]           StackTuner.java:92   | S1 MeasureStack#3 no correct rhythm
+2019-03-08 21:10:38,506 INFO [我要你#6]                Voice.java:264  | S2 {Measure#4P1} Voice #1 too long 5/16
+2019-03-08 21:10:38,506 INFO [我要你#6]                Voice.java:264  | S2 {Measure#4P4} Voice #1 too long 5/16
+2019-03-08 21:10:38,506 INFO [我要你#6]                Voice.java:264  | S2 {Measure#4P6} Voice #1 too long 5/16
+2019-03-08 21:10:38,506 INFO [我要你#6]           StackTuner.java:92   | S2 MeasureStack#4 no correct rhythm
+2019-03-08 21:10:38,508 INFO [我要你#6]                Voice.java:264  | S2 {Measure#5P1} Voice #1 too long 33/16
+2019-03-08 21:10:38,508 INFO [我要你#6]                Voice.java:264  | S2 {Measure#5P4} Voice #1 too long 35/16
+2019-03-08 21:10:38,508 INFO [我要你#6]                Voice.java:264  | S2 {Measure#5P6} Voice #1 too long 35/16
+2019-03-08 21:10:38,508 INFO [我要你#6]           StackTuner.java:92   | S2 MeasureStack#5 no correct rhythm
+2019-03-08 21:10:38,510 INFO [我要你#6]         SlotsBuilder.java:432  | S2 MeasureStack#6 Slot{#5 xOffset=242 timeOffset=7/16 incomings=[#2294] SUSPICIOUS}
+2019-03-08 21:10:38,511 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P2} Voice #1 too long 5/16
+2019-03-08 21:10:38,511 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P3} Voice #1 too long 5/16
+2019-03-08 21:10:38,512 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P4} Voice #1 too long 7/16
+2019-03-08 21:10:38,512 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P5} Voice #1 too long 5/16
+2019-03-08 21:10:38,512 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P6} Voice #1 too long 1/2
+2019-03-08 21:10:38,512 INFO [我要你#6]           StackTuner.java:92   | S2 MeasureStack#6 no correct rhythm
+2019-03-08 21:10:38,514 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:39,168 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:39,175 INFO [我要你#6]       StepMonitoring.java:96   | PAGE
+2019-03-08 21:10:39,176 INFO [我要你#6]                Voice.java:264  | S1 {Measure#1P1} Voice #1 too long 7/16
+2019-03-08 21:10:39,176 INFO [我要你#6]                Voice.java:264  | S1 {Measure#1P4} Voice #1 too long 7/16
+2019-03-08 21:10:39,176 INFO [我要你#6]                Voice.java:264  | S1 {Measure#1P6} Voice #1 too long 11/8
+2019-03-08 21:10:39,176 INFO [我要你#6]                Voice.java:264  | S1 {Measure#2P1} Voice #1 too long 17/8
+2019-03-08 21:10:39,176 INFO [我要你#6]                Voice.java:264  | S1 {Measure#2P4} Voice #1 too long 17/8
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S1 {Measure#2P5} Voice #1 too long 3/2
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S1 {Measure#2P6} Voice #1 too long 7/4
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S1 {Measure#3P1} Voice #1 too long 1
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S1 {Measure#3P4} Voice #1 too long 1
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S1 {Measure#3P6} Voice #1 too long 17/16
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S1 {Measure#3P6} Voice #2 too long 3/4
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S2 {Measure#4P1} Voice #1 too long 5/16
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S2 {Measure#4P4} Voice #1 too long 5/16
+2019-03-08 21:10:39,177 INFO [我要你#6]                Voice.java:264  | S2 {Measure#4P6} Voice #1 too long 5/16
+2019-03-08 21:10:39,178 INFO [我要你#6]                Voice.java:264  | S2 {Measure#5P1} Voice #1 too long 33/16
+2019-03-08 21:10:39,178 INFO [我要你#6]                Voice.java:264  | S2 {Measure#5P4} Voice #1 too long 35/16
+2019-03-08 21:10:39,178 INFO [我要你#6]                Voice.java:264  | S2 {Measure#5P6} Voice #1 too long 35/16
+2019-03-08 21:10:39,178 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P2} Voice #1 too long 5/16
+2019-03-08 21:10:39,178 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P3} Voice #1 too long 5/16
+2019-03-08 21:10:39,178 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P4} Voice #1 too long 7/16
+2019-03-08 21:10:39,178 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P5} Voice #1 too long 5/16
+2019-03-08 21:10:39,178 INFO [我要你#6]                Voice.java:264  | S2 {Measure#6P6} Voice #1 too long 1/2
+2019-03-08 21:10:39,180 INFO [我要你#6]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:39,845 INFO [我要你#6]           BasicSheet.java:1038 | Stored /sheet#6/sheet#6.xml
+2019-03-08 21:10:39,850 INFO [我要你#6]            BasicStub.java:758  | Sheet{我要你#6} disposed
+2019-03-08 21:10:40,016 INFO [我要你#7]       StepMonitoring.java:96   | LOAD
+2019-03-08 21:10:40,033 INFO [我要你#7]            BasicBook.java:1027 | Loaded image 7 2483x3508 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/我要你.pdf
+2019-03-08 21:10:40,035 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:40,035 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:40,040 INFO [我要你#7]       StepMonitoring.java:96   | BINARY
+2019-03-08 21:10:40,772 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:40,911 INFO [我要你#7]              Picture.java:797  | Stored /sheet#7/BINARY.xml
+2019-03-08 21:10:40,911 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:40,918 INFO [我要你#7]       StepMonitoring.java:96   | SCALE
+2019-03-08 21:10:40,922 INFO [我要你#7]         ScaleBuilder.java:526  | Second combo peak too different (113,113,113), ignored
+2019-03-08 21:10:40,922 INFO [我要你#7]            ScaleStep.java:87   | Scale{line(2,2,2) interline(20,21,21) beam(10)}
+2019-03-08 21:10:40,925 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:40,926 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:40,931 INFO [我要你#7]       StepMonitoring.java:96   | GRID
+2019-03-08 21:10:41,027 INFO [我要你#7]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-03-08 21:10:41,031 INFO [我要你#7]    ClustersRetriever.java:242  | Retrieved line clusters: 6 of size: 5 with interline: (20,21,21)
+2019-03-08 21:10:41,055 INFO [我要你#7]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5, 6]
+2019-03-08 21:10:41,058 INFO [我要你#7]        BarsRetriever.java:1396 | System#1
+2019-03-08 21:10:41,059 INFO [我要你#7]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2019-03-08 21:10:41,233 INFO [我要你#7]        SystemManager.java:745  | 6 parts along 1 system
+2019-03-08 21:10:41,235 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:41,264 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:41,270 INFO [我要你#7]       StepMonitoring.java:96   | HEADERS
+2019-03-08 21:10:41,616 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:41,690 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:41,696 INFO [我要你#7]       StepMonitoring.java:96   | STEM_SEEDS
+2019-03-08 21:10:41,777 INFO [我要你#7]        StemSeedsStep.java:92   | stem(2 max:3)
+2019-03-08 21:10:41,785 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:41,862 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:41,869 INFO [我要你#7]       StepMonitoring.java:96   | BEAMS
+2019-03-08 21:10:47,568 INFO [我要你#7]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 18.9
+2019-03-08 21:10:47,650 INFO [我要你#7]       BlackHeadSizer.java:251  | Core black head count: 16 blackHead(width:26.8~0.5 height:21.7~0.8)
+2019-03-08 21:10:47,650 INFO [我要你#7]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:90}
+2019-03-08 21:10:47,698 INFO [我要你#7]            BeamsStep.java:89   | BeamDistance{count:3 mean:10.25 stdDev:8.87}
+2019-03-08 21:10:47,700 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:47,729 INFO [我要你#7]              Picture.java:797  | Stored /sheet#7/HEAD_SPOTS.xml
+2019-03-08 21:10:47,872 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:47,877 INFO [我要你#7]       StepMonitoring.java:96   | LEDGERS
+2019-03-08 21:10:47,988 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:48,135 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:48,141 INFO [我要你#7]       StepMonitoring.java:96   | HEADS
+2019-03-08 21:10:58,778 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:59,039 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:59,045 INFO [我要你#7]       StepMonitoring.java:96   | STEMS
+2019-03-08 21:10:59,171 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:59,404 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:59,416 INFO [我要你#7]       StepMonitoring.java:96   | REDUCTION
+2019-03-08 21:10:59,469 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:59,765 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:59,770 INFO [我要你#7]       StepMonitoring.java:96   | CUE_BEAMS
+2019-03-08 21:10:59,772 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:10:59,976 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:10:59,994 INFO [我要你#7]       StepMonitoring.java:96   | TEXTS
+2019-03-08 21:11:00,904 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:01,288 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:11:01,307 INFO [我要你#7]       StepMonitoring.java:96   | MEASURES
+2019-03-08 21:11:01,309 INFO [我要你#7]                 Page.java:260  | 3 raw measures: [3 in system#1]
+2019-03-08 21:11:01,311 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:01,851 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:11:01,862 INFO [我要你#7]       StepMonitoring.java:96   | CHORDS
+2019-03-08 21:11:01,869 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:02,151 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:11:02,158 INFO [我要你#7]       StepMonitoring.java:96   | CURVES
+2019-03-08 21:11:03,546 INFO [我要你#7]         SlursBuilder.java:157  | Slurs: 0
+2019-03-08 21:11:03,547 INFO [我要你#7]      SegmentsBuilder.java:114  | Segments: 2
+2019-03-08 21:11:03,549 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:03,847 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:11:03,854 INFO [我要你#7]       StepMonitoring.java:96   | SYMBOLS
+2019-03-08 21:11:04,276 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:04,628 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:11:04,636 INFO [我要你#7]       StepMonitoring.java:96   | LINKS
+2019-03-08 21:11:04,636 INFO [我要你#7]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#1127(0.615) s:1 IS-44 Direction} 39
+2019-03-08 21:11:04,650 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:04,988 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:11:04,993 INFO [我要你#7]       StepMonitoring.java:96   | RHYTHMS
+2019-03-08 21:11:05,000 INFO [我要你#7]         SlotsBuilder.java:401  | Stack#2 suspicious Slot{#6 xOffset=296 timeOffset=1/2 incomings=[#1200]}
+2019-03-08 21:11:05,002 INFO [我要你#7]         SlotsBuilder.java:439  | Stack#3 endless loop detected
+2019-03-08 21:11:05,002 INFO [我要你#7]           PageRhythm.java:380  | Range{1-3 dur:3/4} guess:3/4
+2019-03-08 21:11:05,003 INFO [我要你#7]           PageRhythm.java:237  | S1 Range{1-3 dur:3/4} should update to 3/4-based time sig?
+2019-03-08 21:11:05,006 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P1} Voice #1 too long 5/16
+2019-03-08 21:11:05,006 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P2} Voice #1 too long 5/16
+2019-03-08 21:11:05,006 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P3} Voice #1 too long 5/16
+2019-03-08 21:11:05,006 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P4} Voice #1 too long 5/16
+2019-03-08 21:11:05,006 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P5} Voice #1 too long 5/16
+2019-03-08 21:11:05,007 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P6} Voice #1 too long 5/16
+2019-03-08 21:11:05,007 INFO [我要你#7]           StackTuner.java:92   | S1 MeasureStack#1 no correct rhythm
+2019-03-08 21:11:05,011 INFO [我要你#7]         SlotsBuilder.java:432  | S1 MeasureStack#2 Slot{#9 xOffset=390 timeOffset=3/2 incomings=[#1196] SUSPICIOUS}
+2019-03-08 21:11:05,012 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P1} Voice #1 too long 11/8
+2019-03-08 21:11:05,012 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P2} Voice #1 too long 5/16
+2019-03-08 21:11:05,012 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P3} Voice #1 too long 5/16
+2019-03-08 21:11:05,012 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P4} Voice #1 too long 11/8
+2019-03-08 21:11:05,012 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P5} Voice #1 too long 17/8
+2019-03-08 21:11:05,012 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P6} Voice #1 too long 11/8
+2019-03-08 21:11:05,012 INFO [我要你#7]           StackTuner.java:92   | S1 MeasureStack#2 no correct rhythm
+2019-03-08 21:11:05,015 INFO [我要你#7]         SlotsBuilder.java:439  | Stack#3 endless loop detected
+2019-03-08 21:11:05,015 INFO [我要你#7]                Voice.java:264  | S1 {Measure#3P6} Voice #2 too long 1/2
+2019-03-08 21:11:05,015 INFO [我要你#7]                Voice.java:264  | S1 {Measure#3P6} Voice #3 too long 1/4
+2019-03-08 21:11:05,015 INFO [我要你#7]           StackTuner.java:92   | S1 MeasureStack#3 no correct rhythm
+2019-03-08 21:11:05,017 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:05,367 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:11:05,375 INFO [我要你#7]       StepMonitoring.java:96   | PAGE
+2019-03-08 21:11:05,375 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P1} Voice #1 too long 5/16
+2019-03-08 21:11:05,375 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P2} Voice #1 too long 5/16
+2019-03-08 21:11:05,375 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P3} Voice #1 too long 5/16
+2019-03-08 21:11:05,375 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P4} Voice #1 too long 5/16
+2019-03-08 21:11:05,375 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P5} Voice #1 too long 5/16
+2019-03-08 21:11:05,376 INFO [我要你#7]                Voice.java:264  | S1 {Measure#1P6} Voice #1 too long 5/16
+2019-03-08 21:11:05,376 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P1} Voice #1 too long 11/8
+2019-03-08 21:11:05,376 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P2} Voice #1 too long 5/16
+2019-03-08 21:11:05,376 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P3} Voice #1 too long 5/16
+2019-03-08 21:11:05,376 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P4} Voice #1 too long 11/8
+2019-03-08 21:11:05,376 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P5} Voice #1 too long 17/8
+2019-03-08 21:11:05,376 INFO [我要你#7]                Voice.java:264  | S1 {Measure#2P6} Voice #1 too long 11/8
+2019-03-08 21:11:05,377 INFO [我要你#7]                Voice.java:264  | S1 {Measure#3P6} Voice #2 too long 1/2
+2019-03-08 21:11:05,377 INFO [我要你#7]                Voice.java:264  | S1 {Measure#3P6} Voice #3 too long 1/4
+2019-03-08 21:11:05,379 INFO [我要你#7]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:05,729 INFO [我要你#7]           BasicSheet.java:1038 | Stored /sheet#7/sheet#7.xml
+2019-03-08 21:11:05,735 INFO [我要你#7]            BasicStub.java:758  | Sheet{我要你#7} disposed
+2019-03-08 21:11:06,529 INFO [我要你]            BasicStub.java:484  | Loaded /sheet#3/sheet#3.xml
+2019-03-08 21:11:07,103 INFO [我要你]            BasicStub.java:484  | Loaded /sheet#4/sheet#4.xml
+2019-03-08 21:11:07,565 INFO [我要你]            BasicStub.java:484  | Loaded /sheet#6/sheet#6.xml
+2019-03-08 21:11:07,860 INFO [我要你]            BasicStub.java:484  | Loaded /sheet#7/sheet#7.xml
+2019-03-08 21:11:07,865 INFO [我要你]            BasicBook.java:1233 | Scores built: 1
+2019-03-08 21:11:08,718 INFO [我要你]        ScoreExporter.java:93   | Score 我要你 exported to /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/1/我要你/我要你.xml
+2019-03-08 21:11:09,051 INFO [我要你]            BasicBook.java:1501 | Stored /book.xml
+2019-03-08 21:11:09,604 INFO [我要你]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-03-08 21:11:10,383 INFO [我要你]           BasicSheet.java:1038 | Stored /sheet#2/sheet#2.xml
+2019-03-08 21:11:11,022 INFO [我要你]           BasicSheet.java:1038 | Stored /sheet#5/sheet#5.xml
+2019-03-08 21:11:11,022 INFO [我要你]            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/1/我要你/我要你.omr

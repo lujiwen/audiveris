@@ -1,0 +1,178 @@
+2019-02-17 19:24:55,796 INFO [qinghuaci-1]            BasicBook.java:497  | 1 sheet in /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/qinghuaci-1.png
+2019-02-17 19:24:56,000 INFO []            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:24:56,001 INFO []            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/qingghuaci/data/sheet-xml/1/qinghuaci-1/qinghuaci-1.omr
+2019-02-17 19:24:56,003 INFO []            BasicBook.java:1112 | Book reaching PAGE on sheets:[#1]
+2019-02-17 19:24:56,003 INFO [qinghuaci-1]       StepMonitoring.java:96   | LOAD
+2019-02-17 19:24:56,059 INFO [qinghuaci-1]            BasicBook.java:1027 | Loaded image 1 2006x1224 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/qinghuaci-1.png
+2019-02-17 19:24:56,061 INFO [qinghuaci-1]            ImageUtil.java:199  | Discarding alpha band ...
+2019-02-17 19:24:56,085 INFO [qinghuaci-1]            ImageUtil.java:83   | Converting max RGB to gray ...
+2019-02-17 19:24:56,163 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:24:56,167 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:24:56,169 INFO [qinghuaci-1]       StepMonitoring.java:96   | BINARY
+2019-02-17 19:24:56,360 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:24:56,539 INFO [qinghuaci-1]              Picture.java:797  | Stored /sheet#1/BINARY.xml
+2019-02-17 19:24:56,544 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:24:56,546 INFO [qinghuaci-1]       StepMonitoring.java:96   | SCALE
+2019-02-17 19:24:56,550 INFO [qinghuaci-1]         ScaleBuilder.java:526  | Second combo peak too different (154,155,156), ignored
+2019-02-17 19:24:56,554 INFO [qinghuaci-1]            ScaleStep.java:87   | Scale{line(2,3,3) interline(17,18,18) beam(10)}
+2019-02-17 19:24:56,562 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:24:56,570 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:24:56,572 INFO [qinghuaci-1]       StepMonitoring.java:96   | GRID
+2019-02-17 19:24:56,833 INFO [qinghuaci-1]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-02-17 19:24:56,867 INFO [qinghuaci-1]    ClustersRetriever.java:242  | Retrieved line clusters: 5 of size: 5 with interline: (17,18,18)
+2019-02-17 19:24:57,033 INFO [qinghuaci-1]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5]
+2019-02-17 19:24:57,103 INFO [qinghuaci-1]        BarsRetriever.java:1396 | System#1
+2019-02-17 19:24:57,103 INFO [qinghuaci-1]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:false staves:1-5}
+2019-02-17 19:24:57,349 INFO [qinghuaci-1]        SystemManager.java:745  | 5 parts along 1 system
+2019-02-17 19:24:57,356 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:24:57,473 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:24:57,497 INFO [qinghuaci-1]       StepMonitoring.java:96   | HEADERS
+2019-02-17 19:24:57,562 WARN [qinghuaci-1]   AbstractClassifier.java:360  | Load error on file:///Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/qingghuaci/res/basic-classifier.zip java.nio.file.FileSystemNotFoundException: /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/qingghuaci/res/basic-classifier.zip
+java.nio.file.FileSystemNotFoundException: /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/qingghuaci/res/basic-classifier.zip
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:139)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:390)
+	at org.audiveris.omr.util.ZipFileSystem.open(ZipFileSystem.java:100)
+	at org.audiveris.omr.classifier.AbstractClassifier.load(AbstractClassifier.java:345)
+	at org.audiveris.omr.classifier.BasicClassifier.<init>(BasicClassifier.java:102)
+	at org.audiveris.omr.classifier.BasicClassifier.getInstance(BasicClassifier.java:123)
+	at org.audiveris.omr.classifier.ShapeClassifier.getInstance(ShapeClassifier.java:85)
+	at org.audiveris.omr.sheet.header.ClefBuilder.<init>(ClefBuilder.java:143)
+	at org.audiveris.omr.sheet.header.ClefBuilder$Column.retrieveClefs(ClefBuilder.java:545)
+	at org.audiveris.omr.sheet.header.HeaderBuilder.processHeader(HeaderBuilder.java:194)
+	at org.audiveris.omr.sheet.header.HeadersStep.doSystem(HeadersStep.java:61)
+	at org.audiveris.omr.sheet.header.HeadersStep.doSystem(HeadersStep.java:37)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:199)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:182)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:220)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:106)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-17 19:24:57,564 INFO [qinghuaci-1]      BasicClassifier.java:455  | Creating a brand new Basic Classifier
+2019-02-17 19:24:58,095 WARN [qinghuaci-1]   AbstractSystemStep.java:201  | S1 java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at org.audiveris.omr.classifier.BasicClassifier.normalize(BasicClassifier.java:480)
+	at org.audiveris.omr.classifier.BasicClassifier.getNaturalEvaluations(BasicClassifier.java:172)
+	at org.audiveris.omr.classifier.AbstractClassifier.getSortedEvaluations(AbstractClassifier.java:251)
+	at org.audiveris.omr.classifier.AbstractClassifier.evaluate(AbstractClassifier.java:511)
+	at org.audiveris.omr.classifier.AbstractClassifier.evaluate(AbstractClassifier.java:155)
+	at org.audiveris.omr.sheet.header.ClefBuilder$ClefAdapter.evaluateGlyph(ClefBuilder.java:682)
+	at org.audiveris.omr.glyph.GlyphCluster.process(GlyphCluster.java:200)
+	at org.audiveris.omr.glyph.GlyphCluster.decompose(GlyphCluster.java:141)
+	at org.audiveris.omr.sheet.header.ClefBuilder.getBestMap(ClefBuilder.java:251)
+	at org.audiveris.omr.sheet.header.ClefBuilder.findClefs(ClefBuilder.java:190)
+	at org.audiveris.omr.sheet.header.ClefBuilder$Column.retrieveClefs(ClefBuilder.java:548)
+	at org.audiveris.omr.sheet.header.HeaderBuilder.processHeader(HeaderBuilder.java:194)
+	at org.audiveris.omr.sheet.header.HeadersStep.doSystem(HeadersStep.java:61)
+	at org.audiveris.omr.sheet.header.HeadersStep.doSystem(HeadersStep.java:37)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:199)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:182)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:220)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:106)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-17 19:24:58,102 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:24:58,157 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:24:58,160 INFO [qinghuaci-1]       StepMonitoring.java:96   | STEM_SEEDS
+2019-02-17 19:24:58,226 INFO [qinghuaci-1]        StemSeedsStep.java:92   | stem(3 max:4)
+2019-02-17 19:24:58,270 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:24:58,335 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:24:58,337 INFO [qinghuaci-1]       StepMonitoring.java:96   | BEAMS
+2019-02-17 19:24:59,414 INFO [qinghuaci-1]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 16.2
+2019-02-17 19:24:59,454 INFO [qinghuaci-1]       BlackHeadSizer.java:251  | Core black head count: 12 blackHead(width:24.0~0.6 height:20.1~0.7)
+2019-02-17 19:24:59,628 INFO [qinghuaci-1]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:48}
+2019-02-17 19:24:59,775 INFO [qinghuaci-1]            BeamsStep.java:89   | BeamDistance{count:8 mean:1.67 stdDev:4.72}
+2019-02-17 19:24:59,778 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:24:59,814 INFO [qinghuaci-1]              Picture.java:797  | Stored /sheet#1/HEAD_SPOTS.xml
+2019-02-17 19:24:59,951 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:24:59,954 INFO [qinghuaci-1]       StepMonitoring.java:96   | LEDGERS
+2019-02-17 19:25:00,039 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:00,171 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:00,174 INFO [qinghuaci-1]       StepMonitoring.java:96   | HEADS
+2019-02-17 19:25:02,410 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:05,889 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:05,892 INFO [qinghuaci-1]       StepMonitoring.java:96   | STEMS
+2019-02-17 19:25:12,129 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:14,889 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:14,893 INFO [qinghuaci-1]       StepMonitoring.java:96   | REDUCTION
+2019-02-17 19:25:28,532 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:29,017 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:29,021 INFO [qinghuaci-1]       StepMonitoring.java:96   | CUE_BEAMS
+2019-02-17 19:25:29,026 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:29,502 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:29,504 INFO [qinghuaci-1]       StepMonitoring.java:96   | TEXTS
+2019-02-17 19:25:30,746 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:31,252 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:31,254 INFO [qinghuaci-1]       StepMonitoring.java:96   | MEASURES
+2019-02-17 19:25:31,259 INFO [qinghuaci-1]                 Page.java:260  | 2 raw measures: [2 in system#1]
+2019-02-17 19:25:31,263 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:31,775 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:31,778 INFO [qinghuaci-1]       StepMonitoring.java:96   | CHORDS
+2019-02-17 19:25:31,784 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:32,282 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:32,285 INFO [qinghuaci-1]       StepMonitoring.java:96   | CURVES
+2019-02-17 19:25:33,543 INFO [qinghuaci-1]         SlursBuilder.java:157  | Slurs: 0
+2019-02-17 19:25:33,553 INFO [qinghuaci-1]      SegmentsBuilder.java:114  | Segments: 11
+2019-02-17 19:25:33,561 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:34,384 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:34,386 INFO [qinghuaci-1]       StepMonitoring.java:96   | SYMBOLS
+2019-02-17 19:25:34,427 INFO [qinghuaci-1]       SymbolsBuilder.java:341  | Symbol parts shrunk from 10 to 7
+2019-02-17 19:25:34,434 WARN [qinghuaci-1]   AbstractSystemStep.java:201  | S1 java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at org.audiveris.omr.classifier.BasicClassifier.normalize(BasicClassifier.java:480)
+	at org.audiveris.omr.classifier.BasicClassifier.getNaturalEvaluations(BasicClassifier.java:172)
+	at org.audiveris.omr.classifier.AbstractClassifier.getSortedEvaluations(AbstractClassifier.java:251)
+	at org.audiveris.omr.classifier.AbstractClassifier.evaluate(AbstractClassifier.java:511)
+	at org.audiveris.omr.classifier.AbstractClassifier.evaluate(AbstractClassifier.java:142)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.evaluateGlyph(SymbolsBuilder.java:200)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.access$1200(SymbolsBuilder.java:68)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder$SymbolAdapter.evaluateGlyph(SymbolsBuilder.java:480)
+	at org.audiveris.omr.glyph.GlyphCluster.process(GlyphCluster.java:200)
+	at org.audiveris.omr.glyph.GlyphCluster.decompose(GlyphCluster.java:141)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.processClusters(SymbolsBuilder.java:347)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.buildSymbols(SymbolsBuilder.java:165)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:103)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:51)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:199)
+	at org.audiveris.omr.step.AbstractSystemStep$1.call(AbstractSystemStep.java:182)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:220)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:106)
+	at org.audiveris.omr.step.Step.doit(Step.java:184)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:877)
+	at org.audiveris.omr.sheet.BasicStub$3.call(BasicStub.java:865)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-17 19:25:34,438 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:35,272 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:35,274 INFO [qinghuaci-1]       StepMonitoring.java:96   | LINKS
+2019-02-17 19:25:35,276 INFO [qinghuaci-1]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#18656(0.739) s:1 37 Direction} q=100
+2019-02-17 19:25:35,277 INFO [qinghuaci-1]       LyricItemInter.java:301  | No head-chord for LyricItemInter{#18661(0.533) s:2 "dMg" Syllable}
+2019-02-17 19:25:35,277 INFO [qinghuaci-1]       LyricItemInter.java:301  | No head-chord for LyricItemInter{#18665(0.723) s:3 "da" Syllable}
+2019-02-17 19:25:35,278 INFO [qinghuaci-1]       LyricItemInter.java:301  | No head-chord for LyricItemInter{#18669(0.533) s:4 "dMg" Syllable}
+2019-02-17 19:25:35,283 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:36,094 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:36,095 INFO [qinghuaci-1]       StepMonitoring.java:96   | RHYTHMS
+2019-02-17 19:25:36,106 INFO [qinghuaci-1]           PageRhythm.java:380  | Range{1-2} guess:null
+2019-02-17 19:25:36,111 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:36,921 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:36,923 INFO [qinghuaci-1]       StepMonitoring.java:96   | PAGE
+2019-02-17 19:25:36,929 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:37,745 INFO [qinghuaci-1]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:25:37,747 INFO [qinghuaci-1]            BasicStub.java:758  | Sheet{qinghuaci-1} disposed
+2019-02-17 19:25:38,372 INFO [qinghuaci-1]            BasicStub.java:484  | Loaded /sheet#1/sheet#1.xml
+2019-02-17 19:25:38,375 INFO [qinghuaci-1]            BasicBook.java:1233 | Scores built: 1
+2019-02-17 19:25:39,364 INFO [qinghuaci-1]        ScoreExporter.java:93   | Score qinghuaci-1 exported to /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/qingghuaci/data/sheet-xml/1/qinghuaci-1/qinghuaci-1.xml
+2019-02-17 19:25:39,499 INFO [qinghuaci-1]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:25:39,499 INFO [qinghuaci-1]            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/qingghuaci/data/sheet-xml/1/qinghuaci-1/qinghuaci-1.omr

@@ -1,0 +1,22 @@
+2019-02-17 19:21:28,941 INFO [qingghuaci]            BasicBook.java:497  | 1 sheet in /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/qingghuaci.png
+2019-02-17 19:21:29,249 INFO []            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:21:29,250 INFO []            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/qingghuaci/data/sheet-xml/1/qingghuaci/qingghuaci.omr
+2019-02-17 19:21:29,252 INFO []            BasicBook.java:1112 | Book reaching PAGE on sheets:[#1]
+2019-02-17 19:21:29,253 INFO [qingghuaci]       StepMonitoring.java:96   | LOAD
+2019-02-17 19:21:29,316 INFO [qingghuaci]            BasicBook.java:1027 | Loaded image 1 1026x1352 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/1/qingghuaci.png
+2019-02-17 19:21:29,317 INFO [qingghuaci]            ImageUtil.java:199  | Discarding alpha band ...
+2019-02-17 19:21:29,336 INFO [qingghuaci]            ImageUtil.java:83   | Converting max RGB to gray ...
+2019-02-17 19:21:29,415 INFO [qingghuaci]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:21:29,419 INFO [qingghuaci]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:21:29,421 INFO [qingghuaci]       StepMonitoring.java:96   | BINARY
+2019-02-17 19:21:29,523 INFO [qingghuaci]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:21:29,665 INFO [qingghuaci]              Picture.java:797  | Stored /sheet#1/BINARY.xml
+2019-02-17 19:21:29,668 INFO [qingghuaci]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:21:29,670 INFO [qingghuaci]       StepMonitoring.java:96   | SCALE
+2019-02-17 19:21:29,677 INFO [qingghuaci]         ScaleBuilder.java:526  | Second combo peak too different (77,77,78), ignored
+2019-02-17 19:21:29,678 WARN [qingghuaci]            BasicStub.java:233  | qingghuaci With an interline value of 9 pixels, either this sheet contains no staves, or the picture resolution is too low (try 300 DPI).
+2019-02-17 19:21:29,678 INFO [qingghuaci]            BasicStub.java:528  | Sheet qingghuaci flagged as invalid.
+2019-02-17 19:21:29,679 INFO [qingghuaci]            BasicStub.java:612  | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2019-02-17 19:21:29,778 INFO [qingghuaci]            BasicBook.java:1501 | Stored /book.xml
+2019-02-17 19:21:29,780 INFO [qingghuaci]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-02-17 19:21:29,781 INFO [qingghuaci]            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/0/qingghuaci/data/sheet-xml/1/qingghuaci/qingghuaci.omr

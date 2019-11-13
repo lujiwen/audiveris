@@ -25,13 +25,26 @@ ext.companyId       = "${programName}Ltd"
 
 // this code is required in order to adapt values of os.name and os.arch to the
 // conventions used by Javacpp's dependencies
-ext.targetOSName   = System.getProperty('os.name').toLowerCase()\
-                     .startsWith('mac os x') ? 'macosx' :\
-                     System.getProperty('os.name').split(' ')[0].toLowerCase()
-ext.targetOSArch   = ["i386":"x86", "i486":"x86", "i586":"x86", "i686":"x86",
-                      "amd64":"x86_64", "x86-64":"x86_64", "x86_64":"x86_64"]\
-                     [System.getProperty('os.arch').toLowerCase()]
-ext.targetOS       = "${project.ext.targetOSName}-${project.ext.targetOSArch}"
+//ext.targetOSName   = System.getProperty('os.name').toLowerCase()\
+//                     .startsWith('mac os x') ? 'macosx' :\
+//                     System.getProperty('os.name').split(' ')[0].toLowerCase()
+//ext.targetOSArch   = ["i386":"x86", "i486":"x86", "i586":"x86", "i686":"x86",
+//                      "amd64":"x86_64", "x86-64":"x86_64", "x86_64":"x86_64"]\
+//                     [System.getProperty('os.arch').toLowerCase()]
+
+
+//tesseract-3.04.01-1.3-linux-x86_64.jar
+//tesseract-3.04.01-1.3-linux-x86-64.jar
+
+// for build artifact running on linux
+//ext.targetOSName = "linux"
+ext.targetOSName = "macosx"
+ext.targetOSArch = "x86_64"
+ext.targetOS  = "${project.ext.targetOSName}-${project.ext.targetOSArch}"
+
+
+
+
 println "targetOS=${project.ext.targetOS}"
 
 //

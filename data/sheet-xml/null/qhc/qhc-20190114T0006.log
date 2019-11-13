@@ -1,0 +1,94 @@
+2019-01-14 00:06:45,134 INFO [qhc]            BasicBook.java:497  | 1 sheet in /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/null/qhc.png
+2019-01-14 00:06:45,958 INFO []            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:45,961 INFO []            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/null/qhc/qhc.omr
+2019-01-14 00:06:45,963 INFO []            BasicBook.java:1112 | Book reaching PAGE on sheets:[#1]
+2019-01-14 00:06:45,965 INFO [qhc]       StepMonitoring.java:96   | LOAD
+2019-01-14 00:06:46,378 INFO [qhc]            BasicBook.java:1027 | Loaded image 1 2000x1392 from /var/folders/fw/m4fz_dc96t5bvlzqr06frfs80000gn/T/null/qhc.png
+2019-01-14 00:06:46,380 INFO [qhc]            ImageUtil.java:199  | Discarding alpha band ...
+2019-01-14 00:06:46,581 INFO [qhc]            ImageUtil.java:83   | Converting max RGB to gray ...
+2019-01-14 00:06:46,748 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:46,751 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:06:46,753 INFO [qhc]       StepMonitoring.java:96   | BINARY
+2019-01-14 00:06:47,066 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:47,292 INFO [qhc]              Picture.java:797  | Stored /sheet#1/BINARY.xml
+2019-01-14 00:06:47,294 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:06:47,296 INFO [qhc]       StepMonitoring.java:96   | SCALE
+2019-01-14 00:06:47,305 INFO [qhc]         ScaleBuilder.java:526  | Second combo peak too different (155,155,156), ignored
+2019-01-14 00:06:47,306 INFO [qhc]            ScaleStep.java:87   | Scale{line(2,3,3) interline(17,18,18) beam(10)}
+2019-01-14 00:06:47,307 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:47,308 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:06:47,310 INFO [qhc]       StepMonitoring.java:96   | GRID
+2019-01-14 00:06:47,554 INFO [qhc]       LinesRetriever.java:444  | Global slope: 0.00000
+2019-01-14 00:06:47,579 INFO [qhc]    ClustersRetriever.java:242  | Retrieved line clusters: 5 of size: 5 with interline: (17,18,18)
+2019-01-14 00:06:47,700 INFO [qhc]            PeakGraph.java:181  | Systems: #1[1, 2, 3, 4, 5]
+2019-01-14 00:06:47,720 INFO [qhc]        BarsRetriever.java:1396 | System#1
+2019-01-14 00:06:47,720 INFO [qhc]        BarsRetriever.java:1399 |    PartGroup{bracket number:1 barline:false staves:1-5}
+2019-01-14 00:06:47,954 INFO [qhc]        SystemManager.java:745  | 5 parts along 1 system
+2019-01-14 00:06:47,956 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:48,008 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:06:48,010 INFO [qhc]       StepMonitoring.java:96   | HEADERS
+2019-01-14 00:06:48,288 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:48,382 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:06:48,383 INFO [qhc]       StepMonitoring.java:96   | STEM_SEEDS
+2019-01-14 00:06:48,427 INFO [qhc]        StemSeedsStep.java:92   | stem(3 max:4)
+2019-01-14 00:06:48,442 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:48,539 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:06:48,541 INFO [qhc]       StepMonitoring.java:96   | BEAMS
+2019-01-14 00:06:54,167 INFO [qhc]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 16.2
+2019-01-14 00:06:54,364 INFO [qhc]       BlackHeadSizer.java:251  | Core black head count: 12 blackHead(width:24.2~0.8 height:20.2~0.7)
+2019-01-14 00:06:54,369 INFO [qhc]       BlackHeadSizer.java:256  | MusicFont{name:MusicalSymbols pointSize:81}
+2019-01-14 00:06:54,595 INFO [qhc]            BeamsStep.java:89   | BeamDistance{count:8 mean:1.68 stdDev:4.75}
+2019-01-14 00:06:54,597 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:54,649 INFO [qhc]              Picture.java:797  | Stored /sheet#1/HEAD_SPOTS.xml
+2019-01-14 00:06:55,153 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:06:55,163 INFO [qhc]       StepMonitoring.java:96   | LEDGERS
+2019-01-14 00:06:55,347 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:06:55,599 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:06:55,651 INFO [qhc]       StepMonitoring.java:96   | HEADS
+2019-01-14 00:07:00,365 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:00,656 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:00,661 INFO [qhc]       StepMonitoring.java:96   | STEMS
+2019-01-14 00:07:00,964 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:01,360 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:01,363 INFO [qhc]       StepMonitoring.java:96   | REDUCTION
+2019-01-14 00:07:01,388 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:01,953 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:01,957 INFO [qhc]       StepMonitoring.java:96   | CUE_BEAMS
+2019-01-14 00:07:01,988 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:02,369 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:02,371 INFO [qhc]       StepMonitoring.java:96   | TEXTS
+2019-01-14 00:07:03,345 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:03,608 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:03,609 INFO [qhc]       StepMonitoring.java:96   | MEASURES
+2019-01-14 00:07:03,611 INFO [qhc]                 Page.java:260  | 4 raw measures: [4 in system#1]
+2019-01-14 00:07:03,612 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:03,913 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:03,915 INFO [qhc]       StepMonitoring.java:96   | CHORDS
+2019-01-14 00:07:04,018 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:04,329 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:04,331 INFO [qhc]       StepMonitoring.java:96   | CURVES
+2019-01-14 00:07:04,895 INFO [qhc]         SlursBuilder.java:157  | Slurs: 3
+2019-01-14 00:07:04,898 INFO [qhc]      SegmentsBuilder.java:114  | Segments: 4
+2019-01-14 00:07:04,900 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:05,330 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:05,332 INFO [qhc]       StepMonitoring.java:96   | SYMBOLS
+2019-01-14 00:07:05,423 INFO [qhc]       SymbolsBuilder.java:341  | Symbol parts shrunk from 10 to 7
+2019-01-14 00:07:05,702 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:06,365 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:06,371 INFO [qhc]       StepMonitoring.java:96   | LINKS
+2019-01-14 00:07:06,372 INFO [qhc]        SymbolsLinker.java:162  | No chord near direction SentenceInter{#839(0.739) s:1 B-35 Direction} q=100
+2019-01-14 00:07:06,405 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:06,949 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:06,951 INFO [qhc]       StepMonitoring.java:96   | RHYTHMS
+2019-01-14 00:07:06,967 INFO [qhc]           PageRhythm.java:380  | Range{1-4 ts:4/4 dur:1} guess:1
+2019-01-14 00:07:06,978 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:07,471 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:07,541 INFO [qhc]       StepMonitoring.java:96   | PAGE
+2019-01-14 00:07:07,545 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:08,064 INFO [qhc]           BasicSheet.java:1038 | Stored /sheet#1/sheet#1.xml
+2019-01-14 00:07:08,066 INFO [qhc]            BasicStub.java:758  | Sheet{qhc} disposed
+2019-01-14 00:07:08,592 INFO [qhc]            BasicStub.java:484  | Loaded /sheet#1/sheet#1.xml
+2019-01-14 00:07:08,592 INFO [qhc]            BasicBook.java:1233 | Scores built: 1
+2019-01-14 00:07:08,607 INFO [qhc]        ScoreExporter.java:93   | Score qhc exported to /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/null/qhc/qhc.xml
+2019-01-14 00:07:08,733 INFO [qhc]            BasicBook.java:1501 | Stored /book.xml
+2019-01-14 00:07:08,734 INFO [qhc]            BasicBook.java:1461 | Book stored as /Users/lujiwen/go/src/audiveris-wrapper/data/sheet-xml/null/qhc/qhc.omr
